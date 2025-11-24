@@ -810,6 +810,368 @@
       "habitat": "Continental shelf, sandy bottoms",
       "maxLength": "70 cm",
       "maxWeight": "3 kg"
+    },
+    {
+      "id": "76",
+      "name": "Spanish Mackerel",
+      "scientificName": "Scomberomorus maculatus",
+      "status": "Least Concern",
+      "population": 980000,
+      "populationTrend": "Stable",
+      "countries": ["USA", "Mexico", "Venezuela", "Brazil"],
+      "noFishingZones": ["Gulf of Mexico Protected Areas"],
+      "description": "Spanish mackerel is a fast-swimming coastal fish found in the western Atlantic.  Important recreational and commercial species. IUCN Status: Least Concern (2011).",
+      "sources": [
+        "https://www.iucnredlist.org/species/170326/6761134",
+        "https://www.fishbase.se/summary/Scomberomorus-maculatus.html"
+      ],
+      "habitat": "Pelagic, coastal waters",
+      "maxLength": "91 cm",
+      "maxWeight": "5.4 kg"
+    },
+    {
+      "id": "77",
+      "name": "Gilthead Seabream",
+      "scientificName": "Sparus aurata",
+      "status": "Least Concern",
+      "population": 2800000,
+      "populationTrend": "Stable",
+      "countries": ["Spain", "Greece", "Turkey", "Italy", "Tunisia", "Egypt", "Lebanon", "France"],
+      "noFishingZones": ["Mediterranean Coastal Reserves"],
+      "description": "Gilthead seabream is highly valued in Mediterranean aquaculture and fisheries. Wild populations remain stable. IUCN Status: Least Concern (2014).",
+      "sources": [
+        "https://www.iucnredlist.org/species/170181/6739158",
+        "https://www.fishbase.se/summary/Sparus-aurata.html"
+      ],
+      "habitat": "Coastal waters, seagrass beds, 1-150m",
+      "maxLength": "70 cm",
+      "maxWeight": "17.2 kg"
+    },
+    {
+      "id": "78",
+      "name": "Snook",
+      "scientificName": "Centropomus undecimalis",
+      "status": "Least Concern",
+      "population": 750000,
+      "populationTrend": "Stable",
+      "countries": ["USA", "Mexico", "Cuba", "Colombia", "Venezuela", "Brazil"],
+      "noFishingZones": ["Florida Coastal Reserves"],
+      "description": "Common snook is a prized game fish found in tropical and subtropical coastal waters. Well-managed populations. IUCN Status: Least Concern (2012).",
+      "sources": [
+        "https://www.iucnredlist.org/species/190108/1943730",
+        "https://www.fishbase.se/summary/Centropomus-undecimalis.html"
+      ],
+      "habitat": "Estuaries, mangroves, coastal waters",
+      "maxLength": "140 cm",
+      "maxWeight": "24 kg"
+    },
+    {
+      "id": "79",
+      "name": "Black Grouper",
+      "scientificName": "Mycteroperca bonaci",
+      "status": "Near Threatened",
+      "population": 420000,
+      "populationTrend": "Decreasing",
+      "countries": ["USA", "Mexico", "Bahamas", "Cuba", "Brazil"],
+      "noFishingZones": ["Gulf of Mexico Grouper Reserves", "Caribbean MPAs"],
+      "description": "Black grouper is an important commercial and recreational species in the Atlantic. Populations declining due to overfishing. IUCN Status: Near Threatened (2018).",
+      "sources": [
+        "https://www.iucnredlist.org/species/132736/46915350",
+        "https://www.fishbase.se/summary/Mycteroperca-bonaci.html"
+      ],
+      "habitat": "Coral reefs, 10-100m",
+      "maxLength": "150 cm",
+      "maxWeight": "82 kg"
+    },
+    {
+      "id": "80",
+      "name": "Yellowtail Snapper",
+      "scientificName": "Ocyurus chrysurus",
+      "status": "Least Concern",
+      "population": 1200000,
+      "populationTrend": "Stable",
+      "countries": ["USA", "Bahamas", "Cuba", "Mexico", "Venezuela", "Brazil"],
+      "noFishingZones": ["Caribbean Marine Protected Areas"],
+      "description": "Yellowtail snapper is a popular reef fish in the Caribbean and western Atlantic. Sustainably managed. IUCN Status: Least Concern (2015).",
+      "sources": [
+        "https://www.iucnredlist.org/species/194359/2318664",
+        "https://www.fishbase.se/summary/Ocyurus-chrysurus.html"
+      ],
+      "habitat": "Coral reefs, 10-180m",
+      "maxLength": "86 cm",
+      "maxWeight": "4.5 kg"
+    },
+    {
+      "id": "81",
+      "name": "Lingcod",
+      "scientificName": "Ophiodon elongatus",
+      "status": "Least Concern",
+      "population": 890000,
+      "populationTrend": "Stable",
+      "countries": ["USA", "Canada", "Mexico"],
+      "noFishingZones": ["Pacific Northwest Marine Reserves"],
+      "description": "Lingcod is a predatory fish found along the Pacific coast. Well-managed fishery with sustainable populations. IUCN Status: Least Concern (2010).",
+      "sources": [
+        "https://www.iucnredlist.org/species/183795/8177251",
+        "https://www.fishbase.se/summary/Ophiodon-elongatus.html"
+      ],
+      "habitat": "Rocky reefs, kelp forests, 10-475m",
+      "maxLength": "152 cm",
+      "maxWeight": "36 kg"
+    },
+    {
+      "id": "82",
+      "name": "Pacific Rockfish",
+      "scientificName": "Sebastes spp.",
+      "status": "Vulnerable",
+      "population": 650000,
+      "populationTrend": "Stable",
+      "countries": ["USA", "Canada", "Japan", "Russia"],
+      "noFishingZones": ["Pacific Rockfish Conservation Areas"],
+      "description": "Pacific rockfish are long-lived species found in the North Pacific. Many species are recovering after past overfishing. Various IUCN statuses, many Vulnerable (2010-2015).",
+      "sources": [
+        "https://www.iucnredlist.org/species/154835/4669079",
+        "https://www.fishbase.se/summary/FamilySummary.php?ID=482"
+      ],
+      "habitat": "Rocky reefs, 10-500m",
+      "maxLength": "100 cm",
+      "maxWeight": "15 kg"
+    },
+    {
+      "id": "83",
+      "name": "Monkfish",
+      "scientificName": "Lophius americanus",
+      "status": "Least Concern",
+      "population": 720000,
+      "populationTrend": "Stable",
+      "countries": ["USA", "Canada"],
+      "noFishingZones": ["Georges Bank Closed Areas"],
+      "description": "Monkfish is a bottom-dwelling fish prized for its firm white flesh. Populations stable under management. IUCN Status: Least Concern (2015).",
+      "sources": [
+        "https://www.iucnredlist.org/species/190191/1944446",
+        "https://www.fishbase.se/summary/Lophius-americanus.html"
+      ],
+      "habitat": "Demersal, muddy/sandy bottoms, 20-540m",
+      "maxLength": "120 cm",
+      "maxWeight": "22 kg"
+    },
+    {
+      "id": "84",
+      "name": "Summer Flounder",
+      "scientificName": "Paralichthys dentatus",
+      "status": "Least Concern",
+      "population": 1100000,
+      "populationTrend": "Increasing",
+      "countries": ["USA", "Canada"],
+      "noFishingZones": ["Atlantic Coast Protected Areas"],
+      "description": "Summer flounder is an important flatfish on the Atlantic coast. Populations recovering well. IUCN Status: Least Concern (2014).",
+      "sources": [
+        "https://www.iucnredlist.org/species/190243/1946673",
+        "https://www.fishbase.se/summary/Paralichthys-dentatus.html"
+      ],
+      "habitat": "Sandy/muddy bottoms, 0-200m",
+      "maxLength": "94 cm",
+      "maxWeight": "12 kg"
+    },
+    {
+      "id": "85",
+      "name": "Striped Bass",
+      "scientificName": "Morone saxatilis",
+      "status": "Least Concern",
+      "population": 35000000,
+      "populationTrend": "Stable",
+      "countries": ["USA", "Canada"],
+      "noFishingZones": ["Chesapeake Bay Spawning Sanctuaries"],
+      "description": "Striped bass is a success story of fisheries management. Populations recovered dramatically from near-collapse in the 1980s. IUCN Status: Least Concern (2019).",
+      "sources": [
+        "https://www.iucnredlist.org/species/18230226/18537827",
+        "https://www.fishbase.se/summary/Morone-saxatilis.html"
+      ],
+      "habitat": "Anadromous, coastal and estuarine",
+      "maxLength": "200 cm",
+      "maxWeight": "57 kg"
+    },
+    {
+      "id": "86",
+      "name": "Yellowfin Grouper",
+      "scientificName": "Mycteroperca venenosa",
+      "status": "Near Threatened",
+      "population": 380000,
+      "populationTrend": "Decreasing",
+      "countries": ["USA", "Bahamas", "Cuba", "Mexico", "Venezuela", "Brazil"],
+      "noFishingZones": ["Caribbean Grouper Reserves"],
+      "description": "Yellowfin grouper is found in Caribbean and western Atlantic coral reefs. Declining due to fishing pressure. IUCN Status: Near Threatened (2018).",
+      "sources": [
+        "https://www.iucnredlist.org/species/132737/46915484",
+        "https://www.fishbase.se/summary/Mycteroperca-venenosa.html"
+      ],
+      "habitat": "Coral reefs, 10-70m",
+      "maxLength": "100 cm",
+      "maxWeight": "20 kg"
+    },
+    {
+      "id": "87",
+      "name": "Sheepshead",
+      "scientificName": "Archosargus probatocephalus",
+      "status": "Least Concern",
+      "population": 950000,
+      "populationTrend": "Stable",
+      "countries": ["USA", "Mexico", "Brazil"],
+      "noFishingZones": ["Gulf Coast Marine Reserves"],
+      "description": "Sheepshead is a reef fish with distinctive stripes, known for its strong teeth. Sustainably harvested. IUCN Status: Least Concern (2010).",
+      "sources": [
+        "https://www.iucnredlist.org/species/190054/1943531",
+        "https://www.fishbase.se/summary/Archosargus-probatocephalus.html"
+      ],
+      "habitat": "Estuaries, oyster reefs, 0-15m",
+      "maxLength": "91 cm",
+      "maxWeight": "9.6 kg"
+    },
+    {
+      "id": "88",
+      "name": "Permit",
+      "scientificName": "Trachinotus falcatus",
+      "status": "Least Concern",
+      "population": 680000,
+      "populationTrend": "Stable",
+      "countries": ["USA", "Mexico", "Cuba", "Brazil"],
+      "noFishingZones": ["Florida Keys Marine Sanctuaries"],
+      "description": "Permit is a prized game fish found in tropical waters. Populations remain stable. IUCN Status: Least Concern (2010).",
+      "sources": [
+        "https://www.iucnredlist.org/species/190274/1947221",
+        "https://www.fishbase.se/summary/Trachinotus-falcatus.html"
+      ],
+      "habitat": "Coastal, sandy flats, reefs, 0-35m",
+      "maxLength": "122 cm",
+      "maxWeight": "36 kg"
+    },
+    {
+      "id": "89",
+      "name": "Florida Pompano",
+      "scientificName": "Trachinotus carolinus",
+      "status": "Least Concern",
+      "population": 840000,
+      "populationTrend": "Stable",
+      "countries": ["USA", "Mexico", "Brazil"],
+      "noFishingZones": ["Atlantic Coast Protected Areas"],
+      "description": "Florida pompano is a highly valued food fish found along the Atlantic coast. Sustainably managed. IUCN Status: Least Concern (2015).",
+      "sources": [
+        "https://www.iucnredlist.org/species/190273/1947189",
+        "https://www.fishbase.se/summary/Trachinotus-carolinus.html"
+      ],
+      "habitat": "Surf zone, sandy beaches, 0-23m",
+      "maxLength": "64 cm",
+      "maxWeight": "3.6 kg"
+    },
+    {
+      "id": "90",
+      "name": "Bonef
+
+ish",
+      "scientificName": "Albula vulpes",
+      "status": "Near Threatened",
+      "population": 520000,
+      "populationTrend": "Decreasing",
+      "countries": ["USA", "Bahamas", "Cuba", "Mexico", "Caribbean Islands"],
+      "noFishingZones": ["Bahamas Bonefish Sanctuaries"],
+      "description": "Bonefish is a legendary game fish found in tropical flats. Catch-and-release practices help conservation. IUCN Status: Near Threatened (2019).",
+      "sources": [
+        "https://www.iucnredlist.org/species/194303/2310339",
+        "https://www.fishbase.se/summary/Albula-vulpes.html"
+      ],
+      "habitat": "Shallow flats, mangroves, 0-84m",
+      "maxLength": "104 cm",
+      "maxWeight": "8.6 kg"
+    },
+    {
+      "id": "91",
+      "name": "Atlantic Tarpon",
+      "scientificName": "Megalops atlanticus",
+      "status": "Vulnerable",
+      "population": 450000,
+      "populationTrend": "Decreasing",
+      "countries": ["USA", "Mexico", "Cuba", "Venezuela", "Brazil"],
+      "noFishingZones": ["Florida Tarpon Conservation Areas"],
+      "description": "Tarpon is an iconic game fish known for spectacular jumps. Populations declining, mostly catch-and-release now. IUCN Status: Vulnerable (2012).",
+      "sources": [
+        "https://www.iucnredlist.org/species/191823/2001788",
+        "https://www.fishbase.se/summary/Megalops-atlanticus.html"
+      ],
+      "habitat": "Coastal, estuarine, freshwater, 0-30m",
+      "maxLength": "250 cm",
+      "maxWeight": "161 kg"
+    },
+    {
+      "id": "92",
+      "name": "Chilean Sea Bass",
+      "scientificName": "Dissostichus eleginoides",
+      "status": "Least Concern",
+      "population": 580000,
+      "populationTrend": "Stable",
+      "countries": ["Argentina", "Chile", "South Africa", "Australia", "New Zealand"],
+      "noFishingZones": ["Southern Ocean Protected Areas"],
+      "description": "Chilean sea bass was heavily overfished but has recovered through strict management and certification. IUCN Status: Least Concern (2015).",
+      "sources": [
+        "https://www.iucnredlist.org/species/154870/4680373",
+        "https://www.fishbase.se/summary/Dissostichus-eleginoides.html"
+      ],
+      "habitat": "Deep waters, 45-3850m",
+      "maxLength": "215 cm",
+      "maxWeight": "100 kg"
+    },
+    {
+      "id": "93",
+      "name": "Orange Roughy",
+      "scientificName": "Hoplostethus atlanticus",
+      "status": "Vulnerable",
+      "population": 280000,
+      "populationTrend": "Decreasing",
+      "countries": ["Australia", "New Zealand", "Namibia", "Chile"],
+      "noFishingZones": ["Deep Sea Reserves"],
+      "description": "Orange roughy is extremely long-lived (up to 149 years), making it vulnerable to overfishing. Populations declining. IUCN Status: Vulnerable (2020).",
+      "sources": [
+        "https://www.iucnredlist.org/species/10195/100088826",
+        "https://www.fishbase.se/summary/Hoplostethus-atlanticus.html"
+      ],
+      "habitat": "Deep waters, 180-1800m",
+      "maxLength": "75 cm",
+      "maxWeight": "7 kg"
+    },
+    {
+      "id": "94",
+      "name": "Nile Tilapia",
+      "scientificName": "Oreochromis niloticus",
+      "status": "Least Concern",
+      "population": 8500000,
+      "populationTrend": "Stable",
+      "countries": ["Egypt", "Kenya", "Tanzania", "China", "Thailand", "Brazil", "USA"],
+      "noFishingZones": ["Lake Victoria Protected Areas"],
+      "description": "Nile tilapia is one of the most important aquaculture species globally. Wild populations stable. IUCN Status: Least Concern (2019).",
+      "sources": [
+        "https://www.iucnredlist.org/species/166975/6288991",
+        "https://www.fishbase.se/summary/Oreochromis-niloticus.html"
+      ],
+      "habitat": "Freshwater lakes, rivers",
+      "maxLength": "60 cm",
+      "maxWeight": "4.3 kg"
+    },
+    {
+      "id": "95",
+      "name": "Rainbow Trout",
+      "scientificName": "Oncorhynchus mykiss",
+      "status": "Least Concern",
+      "population": 5600000,
+      "populationTrend": "Stable",
+      "countries": ["USA", "Canada", "Chile", "Norway", "Australia", "New Zealand"],
+      "noFishingZones": ["Pacific Northwest Stream Reserves"],
+      "description": "Rainbow trout is one of the most widely farmed fish globally. Wild populations stable. IUCN Status: Least Concern (2008).",
+      "sources": [
+        "https://www.iucnredlist.org/species/135602/4163035",
+        "https://www.fishbase.se/summary/Oncorhynchus-mykiss.html"
+      ],
+      "habitat": "Freshwater streams, rivers, lakes",
+      "maxLength": "120 cm",
+      "maxWeight": "25 kg"
     }
   ]
 }

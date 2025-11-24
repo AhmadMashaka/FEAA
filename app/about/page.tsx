@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ExternalLink, Fish, Shield, Globe, Database, Filter } from "lucide-react";
+import { ExternalLink, Fish, Shield, Globe, Database, Filter, TrendingDown, Flag, CheckCircle, UtensilsCrossed, Heart, Target, Brain } from "lucide-react";
 
 export default function AboutPage() {
   return (
@@ -22,9 +22,10 @@ export default function AboutPage() {
               transition={{ delay: 0.2 }}
               className="text-xl text-slate-300 leading-relaxed font-light"
             >
-              Welcome to the <span className="text-teal-400 font-semibold">Fish Species Explorer</span>, a comprehensive
-              database designed to help users explore global fish species, their
-              conservation status, population trends, and geographic distribution.
+              Welcome to the <span className="text-teal-400 font-semibold">Fish Species Explorer</span>, developed by 
+              <span className="text-teal-400 font-semibold"> Ahmad Mashaka and Group 5</span> at the American University of Beirut (AUB). 
+              This comprehensive platform is designed to help users explore global fish species, their
+              conservation status, population trends, and geographic distribution, while tackling the critical issue of overfishing.
             </motion.p>
 
             <motion.div
@@ -36,12 +37,16 @@ export default function AboutPage() {
                 <Fish className="text-teal-400" size={32} />
                 <span>Our Mission</span>
               </h2>
+              <p className="text-lg text-slate-300 leading-relaxed font-light mb-4">
+                This application was developed by <span className="text-teal-400 font-semibold">Ahmad Mashaka and Group 5</span> for 
+                a course at the <span className="text-teal-400 font-semibold">American University of Beirut (AUB)</span>, 
+                Faculty of Engineering and Architecture (FEAA). Our mission is to raise awareness about marine biodiversity and the
+                conservation status of fish species worldwide, with special focus on <span className="text-teal-400 font-semibold">tackling overfishing in Lebanon and the Mediterranean</span>.
+              </p>
               <p className="text-lg text-slate-300 leading-relaxed font-light">
-                Our mission is to raise awareness about marine biodiversity and the
-                conservation status of fish species worldwide. By providing accessible
-                information about fish populations, their habitats, and the threats they
-                face, we aim to promote marine conservation and sustainable fishing
-                practices.
+                Our team is passionate about marine conservation and using technology to create 
+                positive environmental impact. This project represents our commitment to tackling 
+                overfishing and promoting sustainable seafood choices through education and awareness.
               </p>
             </motion.div>
 
@@ -56,12 +61,17 @@ export default function AboutPage() {
               </h2>
               <ul className="space-y-4">
                 {[
-                  { icon: Database, text: "Comprehensive Species Database: Browse detailed information about various fish species from around the world" },
-                  { icon: Shield, text: "Conservation Status: View IUCN conservation status classifications for each species" },
-                  { icon: Fish, text: "Population Data: Access population estimates and trends for different species" },
-                  { icon: Globe, text: "Geographic Distribution: Explore which countries each species is found in" },
-                  { icon: Shield, text: "No-Fishing Zones: Learn about protected areas and marine sanctuaries" },
-                  { icon: Filter, text: "Advanced Filtering: Filter species by country, conservation status, and more" },
+                  { icon: Database, text: "Comprehensive Species Database: Browse 65 fish species with detailed IUCN-verified information including scientific names, habitats, and population data from FAO and FishBase." },
+                  { icon: Shield, text: "Conservation Status: View real-time IUCN conservation status classifications (Critically Endangered, Endangered, Vulnerable, etc.) for each species." },
+                  { icon: TrendingDown, text: "Overfishing Impact Dashboard: Explore global and regional overfishing statistics with verified FAO data, including economic impacts and trends." },
+                  { icon: Flag, text: "Lebanon/Mediterranean Focus: Dive into specific overfishing challenges and solutions for Lebanon and the Mediterranean Sea, featuring local species and initiatives." },
+                  { icon: CheckCircle, text: "Before You Eat Checker: An interactive tool to check the sustainability of fish species and find sustainable alternatives for overfished options." },
+                  { icon: UtensilsCrossed, text: "Sustainable Recipes: Discover 32 delicious, authentic recipes using only non-endangered fish species, complete with cultural backgrounds and step-by-step instructions." },
+                  { icon: Heart, text: "Species Recovery Tracker: Learn about successful marine conservation efforts and species recovery programs worldwide, showcasing positive impact." },
+                  { icon: Target, text: "Action Steps: Find practical ways to contribute to marine conservation, from individual choices to supporting global organizations, with a special focus on Lebanon." },
+                  { icon: Brain, text: "Educational Quiz: Test your knowledge about overfishing and marine conservation with an interactive quiz, including Lebanese-specific questions." },
+                  { icon: Globe, text: "Geographic Distribution: Explore which countries each species is found in, including no-fishing zones and protected marine areas." },
+                  { icon: Filter, text: "Advanced Filtering: Easily filter species by country, conservation status, population trend, and more to find specific information." },
                 ].map((item, index) => {
                   const Icon = item.icon;
                   return (
@@ -170,12 +180,13 @@ export default function AboutPage() {
               initial={{ opacity: 0, scale: 0.95 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: 1.1 }}
-              className="mt-10 p-6 glass rounded-2xl border border-teal-400/30 bg-teal-500/10"
+              className="mt-10 p-6 glass rounded-2xl border border-green-500/30 bg-green-500/10"
             >
-              <p className="text-sm text-teal-200">
-                <strong className="text-teal-300">Note:</strong> This is a sample application with simulated
-                data for educational purposes. For accurate, real-time conservation
-                data, please refer to official sources such as the IUCN Red List.
+              <p className="text-sm text-green-200">
+                <strong className="text-green-300">Data Credibility:</strong> All data in this application is sourced from 
+                authoritative organizations including FAO (Food and Agriculture Organization), IUCN Red List, 
+                FishBase, and peer-reviewed scientific publications. Population estimates and conservation 
+                status are based on the latest available assessments as of 2024.
               </p>
             </motion.div>
           </div>

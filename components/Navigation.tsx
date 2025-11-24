@@ -3,16 +3,20 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { motion } from "framer-motion";
-import { Home, Globe, AlertTriangle, Info, UtensilsCrossed } from "lucide-react";
+import { Home, Globe, AlertTriangle, Info, UtensilsCrossed, TrendingDown, Flag, CheckCircle, Heart, Target, Brain } from "lucide-react";
 
 export default function Navigation() {
   const pathname = usePathname();
 
   const navItems = [
     { href: "/", label: "Home", icon: Home },
-    { href: "/countries", label: "Countries", icon: Globe },
-    { href: "/endangered", label: "Endangered", icon: AlertTriangle },
+    { href: "/overfishing", label: "Impact", icon: TrendingDown },
+    { href: "/lebanon", label: "Lebanon", icon: Flag },
+    { href: "/before-you-eat", label: "Check", icon: CheckCircle },
     { href: "/recipes", label: "Recipes", icon: UtensilsCrossed },
+    { href: "/recovery", label: "Recovery", icon: Heart },
+    { href: "/action-steps", label: "Action", icon: Target },
+    { href: "/quiz", label: "Quiz", icon: Brain },
     { href: "/about", label: "About", icon: Info },
   ];
 
