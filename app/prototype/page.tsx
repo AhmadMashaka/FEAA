@@ -1535,7 +1535,7 @@ export default function PrototypePage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {/* Feature 1 */}
-            <a href="http://localhost:3000/" target="_blank" rel="noopener noreferrer" className="glass rounded-2xl p-6 border border-teal-400/30 hover:border-teal-400/60 transition-all hover:scale-105 group cursor-pointer">
+            <a href="/" className="glass rounded-2xl p-6 border border-teal-400/30 hover:border-teal-400/60 transition-all hover:scale-105 group cursor-pointer">
               <div className="flex items-center space-x-3 mb-3">
                 <div className="w-12 h-12 rounded-xl bg-teal-500/20 flex items-center justify-center text-2xl">
                   🏠
@@ -1549,7 +1549,7 @@ export default function PrototypePage() {
             </a>
 
             {/* Feature 2 */}
-            <a href="http://localhost:3000/prototype" target="_blank" rel="noopener noreferrer" className="glass rounded-2xl p-6 border border-yellow-400/30 hover:border-yellow-400/60 transition-all hover:scale-105 group cursor-pointer">
+            <a href="/prototype" className="glass rounded-2xl p-6 border border-yellow-400/30 hover:border-yellow-400/60 transition-all hover:scale-105 group cursor-pointer">
               <div className="flex items-center space-x-3 mb-3">
                 <div className="w-12 h-12 rounded-xl bg-yellow-500/20 flex items-center justify-center text-2xl">
                   💡
@@ -1563,7 +1563,7 @@ export default function PrototypePage() {
             </a>
 
             {/* Feature 3 */}
-            <a href="http://localhost:3000/overfishing" target="_blank" rel="noopener noreferrer" className="glass rounded-2xl p-6 border border-red-400/30 hover:border-red-400/60 transition-all hover:scale-105 group cursor-pointer">
+            <a href="/overfishing" className="glass rounded-2xl p-6 border border-red-400/30 hover:border-red-400/60 transition-all hover:scale-105 group cursor-pointer">
               <div className="flex items-center space-x-3 mb-3">
                 <div className="w-12 h-12 rounded-xl bg-red-500/20 flex items-center justify-center text-2xl">
                   📉
@@ -1577,7 +1577,7 @@ export default function PrototypePage() {
             </a>
 
             {/* Feature 4 */}
-            <a href="http://localhost:3000/lebanon" target="_blank" rel="noopener noreferrer" className="glass rounded-2xl p-6 border border-red-400/30 hover:border-red-400/60 transition-all hover:scale-105 group cursor-pointer">
+            <a href="/lebanon" className="glass rounded-2xl p-6 border border-red-400/30 hover:border-red-400/60 transition-all hover:scale-105 group cursor-pointer">
               <div className="flex items-center space-x-3 mb-3">
                 <div className="w-12 h-12 rounded-xl bg-red-500/20 flex items-center justify-center text-2xl">
                   🇱🇧
@@ -1591,7 +1591,7 @@ export default function PrototypePage() {
             </a>
 
             {/* Feature 5 */}
-            <a href="http://localhost:3000/before-you-eat" target="_blank" rel="noopener noreferrer" className="glass rounded-2xl p-6 border border-green-400/30 hover:border-green-400/60 transition-all hover:scale-105 group cursor-pointer">
+            <a href="/before-you-eat" className="glass rounded-2xl p-6 border border-green-400/30 hover:border-green-400/60 transition-all hover:scale-105 group cursor-pointer">
               <div className="flex items-center space-x-3 mb-3">
                 <div className="w-12 h-12 rounded-xl bg-green-500/20 flex items-center justify-center text-2xl">
                   ✅
@@ -1605,7 +1605,7 @@ export default function PrototypePage() {
             </a>
 
             {/* Feature 6 */}
-            <a href="http://localhost:3000/recipes" target="_blank" rel="noopener noreferrer" className="glass rounded-2xl p-6 border border-teal-400/30 hover:border-teal-400/60 transition-all hover:scale-105 group cursor-pointer">
+            <a href="/recipes" className="glass rounded-2xl p-6 border border-teal-400/30 hover:border-teal-400/60 transition-all hover:scale-105 group cursor-pointer">
               <div className="flex items-center space-x-3 mb-3">
                 <div className="w-12 h-12 rounded-xl bg-teal-500/20 flex items-center justify-center text-2xl">
                   🍽️
@@ -1619,7 +1619,7 @@ export default function PrototypePage() {
             </a>
 
             {/* Feature 7 */}
-            <a href="http://localhost:3000/recovery" target="_blank" rel="noopener noreferrer" className="glass rounded-2xl p-6 border border-green-400/30 hover:border-green-400/60 transition-all hover:scale-105 group cursor-pointer">
+            <a href="/recovery" className="glass rounded-2xl p-6 border border-green-400/30 hover:border-green-400/60 transition-all hover:scale-105 group cursor-pointer">
               <div className="flex items-center space-x-3 mb-3">
                 <div className="w-12 h-12 rounded-xl bg-green-500/20 flex items-center justify-center text-2xl">
                   💚
@@ -1633,7 +1633,7 @@ export default function PrototypePage() {
             </a>
 
             {/* Feature 8 */}
-            <a href="http://localhost:3000/action-steps" target="_blank" rel="noopener noreferrer" className="glass rounded-2xl p-6 border border-orange-400/30 hover:border-orange-400/60 transition-all hover:scale-105 group cursor-pointer">
+            <a href="/action-steps" className="glass rounded-2xl p-6 border border-orange-400/30 hover:border-orange-400/60 transition-all hover:scale-105 group cursor-pointer">
               <div className="flex items-center space-x-3 mb-3">
                 <div className="w-12 h-12 rounded-xl bg-orange-500/20 flex items-center justify-center text-2xl">
                   🎯
@@ -1647,7 +1647,7 @@ export default function PrototypePage() {
             </a>
 
             {/* Feature 9 */}
-            <a href="http://localhost:3000/quiz" target="_blank" rel="noopener noreferrer" className="glass rounded-2xl p-6 border border-purple-400/30 hover:border-purple-400/60 transition-all hover:scale-105 group cursor-pointer">
+            <a href="/quiz" className="glass rounded-2xl p-6 border border-purple-400/30 hover:border-purple-400/60 transition-all hover:scale-105 group cursor-pointer">
               <div className="flex items-center space-x-3 mb-3">
                 <div className="w-12 h-12 rounded-xl bg-purple-500/20 flex items-center justify-center text-2xl">
                   🧠
@@ -1661,7 +1661,7 @@ export default function PrototypePage() {
             </a>
 
             {/* Feature 10 */}
-            <a href="http://localhost:3000/about" target="_blank" rel="noopener noreferrer" className="glass rounded-2xl p-6 border border-blue-400/30 hover:border-blue-400/60 transition-all hover:scale-105 group cursor-pointer">
+            <a href="/about" className="glass rounded-2xl p-6 border border-blue-400/30 hover:border-blue-400/60 transition-all hover:scale-105 group cursor-pointer">
               <div className="flex items-center space-x-3 mb-3">
                 <div className="w-12 h-12 rounded-xl bg-blue-500/20 flex items-center justify-center text-2xl">
                   ℹ️
