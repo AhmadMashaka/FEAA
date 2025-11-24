@@ -34,39 +34,34 @@ export default function PrototypePage() {
 
   return (
     <div className="min-h-screen">
-      {/* Fixed Navigation */}
-      <nav className="fixed top-20 left-0 right-0 z-40 glass border-b border-white/10 hidden lg:block">
-        <div className="max-w-7xl mx-auto px-8 py-3">
-          <div className="flex items-center space-x-6 text-sm">
-            <a href="#home" className="text-teal-400 hover:text-teal-300 transition-colors font-semibold">
-              Home
-            </a>
-            <a href="#demo" className="text-slate-300 hover:text-white transition-colors">
+      <div className="max-w-7xl mx-auto px-8 py-10">
+        {/* Quick Navigation */}
+        <div className="glass-strong rounded-2xl p-6 border border-white/20 mb-8">
+          <div className="flex flex-wrap gap-3 justify-center">
+            <a href="#demo" className="px-4 py-2 bg-teal-500/20 hover:bg-teal-500/30 text-teal-300 rounded-full text-sm font-semibold transition-all border border-teal-400/30">
               Prototype Demo
             </a>
-            <a href="#engineering" className="text-slate-300 hover:text-white transition-colors">
-              Engineering Thinking
+            <a href="#engineering" className="px-4 py-2 bg-blue-500/20 hover:bg-blue-500/30 text-blue-300 rounded-full text-sm font-semibold transition-all border border-blue-400/30">
+              Engineering
             </a>
-            <a href="#testing" className="text-slate-300 hover:text-white transition-colors">
+            <a href="#testing" className="px-4 py-2 bg-purple-500/20 hover:bg-purple-500/30 text-purple-300 rounded-full text-sm font-semibold transition-all border border-purple-400/30">
               Testing
             </a>
-            <a href="#iterations" className="text-slate-300 hover:text-white transition-colors">
+            <a href="#iterations" className="px-4 py-2 bg-orange-500/20 hover:bg-orange-500/30 text-orange-300 rounded-full text-sm font-semibold transition-all border border-orange-400/30">
               Iterations
             </a>
-            <a href="#sustainability" className="text-slate-300 hover:text-white transition-colors">
-              Sustainability
-            </a>
-            <a href="#skills" className="text-slate-300 hover:text-white transition-colors">
+            <a href="#skills" className="px-4 py-2 bg-pink-500/20 hover:bg-pink-500/30 text-pink-300 rounded-full text-sm font-semibold transition-all border border-pink-400/30">
               Skills
             </a>
-            <a href="#summary" className="text-slate-300 hover:text-white transition-colors">
+            <a href="#sustainability" className="px-4 py-2 bg-green-500/20 hover:bg-green-500/30 text-green-300 rounded-full text-sm font-semibold transition-all border border-green-400/30">
+              Sustainability
+            </a>
+            <a href="#summary" className="px-4 py-2 bg-indigo-500/20 hover:bg-indigo-500/30 text-indigo-300 rounded-full text-sm font-semibold transition-all border border-indigo-400/30">
               Summary
             </a>
           </div>
         </div>
-      </nav>
 
-      <div className="max-w-7xl mx-auto px-8 py-10 lg:pt-24">
         {/* Hero Section */}
         <motion.div
           id="home"
