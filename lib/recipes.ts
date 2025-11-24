@@ -45,4 +45,6 @@ export function getRecipesForNonEndangeredSpecies(): Recipe[] {
   );
 }
 
+// Alias for backward compatibility
+export const getRecipesBySpeciesId = getRecipesBySpecies;
 
