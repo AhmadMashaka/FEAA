@@ -440,39 +440,6 @@ export default function PrototypePage() {
             )}
           </div>
 
-          {/* User Feedback Placeholder */}
-          <div className="mt-6 glass rounded-2xl p-6 border border-white/10">
-            <h3 className="text-xl font-bold text-white mb-4">User Feedback Summary</h3>
-            <div className="space-y-3">
-              <div className="flex items-start space-x-3">
-                <div className="w-10 h-10 rounded-full bg-teal-500/20 flex items-center justify-center flex-shrink-0">
-                  <span className="text-teal-400 text-xl">👤</span>
-                </div>
-                <div>
-                  <div className="text-white font-semibold">Marine Biologist</div>
-                  <div className="text-slate-300 text-sm">&quot;Excellent data accuracy and comprehensive coverage of Mediterranean species.&quot;</div>
-                </div>
-              </div>
-              <div className="flex items-start space-x-3">
-                <div className="w-10 h-10 rounded-full bg-blue-500/20 flex items-center justify-center flex-shrink-0">
-                  <span className="text-blue-400 text-xl">👤</span>
-                </div>
-                <div>
-                  <div className="text-white font-semibold">Restaurant Owner</div>
-                  <div className="text-slate-300 text-sm">&quot;The sustainability checker helped us make better sourcing decisions.&quot;</div>
-                </div>
-              </div>
-              <div className="flex items-start space-x-3">
-                <div className="w-10 h-10 rounded-full bg-purple-500/20 flex items-center justify-center flex-shrink-0">
-                  <span className="text-purple-400 text-xl">👤</span>
-                </div>
-                <div>
-                  <div className="text-white font-semibold">Student</div>
-                  <div className="text-slate-300 text-sm">&quot;The quiz feature made learning about overfishing engaging and interactive.&quot;</div>
-                </div>
-              </div>
-            </div>
-          </div>
         </motion.div>
 
         {/* 4. DESIGN ITERATIONS SECTION */}
