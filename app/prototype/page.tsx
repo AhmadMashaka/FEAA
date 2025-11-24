@@ -161,6 +161,200 @@ export default function PrototypePage() {
               </div>
             </div>
           </div>
+
+          {/* Interactive Globe with No-Fishing Zones */}
+          <div className="glass rounded-2xl p-8 border border-blue-400/30 bg-gradient-to-br from-blue-500/10 to-teal-500/10 mt-8">
+            <h3 className="text-2xl font-bold text-white mb-4 flex items-center space-x-2">
+              <span>🌍</span>
+              <span>Interactive No-Fishing Zones Map</span>
+            </h3>
+            <p className="text-slate-300 mb-6">Click on regions to see protected marine areas and conservation zones:</p>
+            
+            {/* SVG Interactive Globe */}
+            <div className="relative w-full aspect-[2/1] bg-gradient-to-b from-blue-900/20 to-blue-950/40 rounded-xl border border-blue-400/30 overflow-hidden">
+              <svg viewBox="0 0 800 400" className="w-full h-full">
+                {/* Ocean Background */}
+                <defs>
+                  <radialGradient id="oceanGradient">
+                    <stop offset="0%" stopColor="#1e40af" stopOpacity="0.3"/>
+                    <stop offset="100%" stopColor="#0c4a6e" stopOpacity="0.5"/>
+                  </radialGradient>
+                  <pattern id="waves" x="0" y="0" width="40" height="20" patternUnits="userSpaceOnUse">
+                    <path d="M0 10 Q10 5, 20 10 T40 10" stroke="#3b82f6" strokeWidth="0.5" fill="none" opacity="0.3"/>
+                  </pattern>
+                </defs>
+                <rect width="800" height="400" fill="url(#oceanGradient)"/>
+                <rect width="800" height="400" fill="url(#waves)"/>
+
+                {/* World Map Simplified Continents */}
+                <g id="continents" fill="#334155" opacity="0.6">
+                  {/* North America */}
+                  <path d="M 150 80 Q 180 70, 220 90 L 240 110 L 230 150 L 200 170 L 170 160 L 140 140 Z"/>
+                  {/* South America */}
+                  <path d="M 220 200 L 250 220 L 260 280 L 240 300 L 220 290 L 210 240 Z"/>
+                  {/* Europe */}
+                  <path d="M 380 80 L 420 75 L 440 95 L 430 115 L 400 120 L 380 105 Z"/>
+                  {/* Africa */}
+                  <path d="M 390 140 L 440 135 L 470 180 L 460 240 L 420 260 L 395 240 L 390 180 Z"/>
+                  {/* Asia */}
+                  <path d="M 480 60 L 600 70 L 650 100 L 670 140 L 640 170 L 580 160 L 520 140 L 480 100 Z"/>
+                  {/* Australia */}
+                  <path d="M 620 250 L 680 260 L 690 290 L 660 305 L 620 295 Z"/>
+                </g>
+
+                {/* No-Fishing Zones (Protected Areas) */}
+                <g id="protected-zones">
+                  {/* Mediterranean */}
+                  <circle 
+                    cx="410" cy="110" r="25" 
+                    fill="#22c55e" 
+                    fillOpacity="0.3" 
+                    stroke="#22c55e" 
+                    strokeWidth="2"
+                    className="cursor-pointer hover:fill-opacity-60 transition-all"
+                    onClick={() => {
+                      const info = document.getElementById('zone-info');
+                      if (info) {
+                        info.innerHTML = '<strong>🇱🇧 Mediterranean Protected Areas</strong><br/>Includes Lebanese Marine Protected Areas, covering key breeding grounds for endangered Mediterranean species.';
+                        info.className = 'text-green-400 font-semibold mt-4 p-4 glass rounded-xl border border-green-400/50';
+                      }
+                    }}
+                  >
+                    <title>Mediterranean - Click for details</title>
+                  </circle>
+
+                  {/* Great Barrier Reef */}
+                  <ellipse 
+                    cx="660" cy="270" rx="35" ry="25" 
+                    fill="#3b82f6" 
+                    fillOpacity="0.3" 
+                    stroke="#3b82f6" 
+                    strokeWidth="2"
+                    className="cursor-pointer hover:fill-opacity-60 transition-all"
+                    onClick={() => {
+                      const info = document.getElementById('zone-info');
+                      if (info) {
+                        info.innerHTML = '<strong>🇦🇺 Great Barrier Reef Marine Park</strong><br/>World&apos;s largest coral reef system, protecting 1,500+ fish species. Strict no-fishing zones cover 33% of the park.';
+                        info.className = 'text-blue-400 font-semibold mt-4 p-4 glass rounded-xl border border-blue-400/50';
+                      }
+                    }}
+                  >
+                    <title>Great Barrier Reef - Click for details</title>
+                  </ellipse>
+
+                  {/* North Pacific */}
+                  <ellipse 
+                    cx="180" cy="120" rx="40" ry="30" 
+                    fill="#f59e0b" 
+                    fillOpacity="0.3" 
+                    stroke="#f59e0b" 
+                    strokeWidth="2"
+                    className="cursor-pointer hover:fill-opacity-60 transition-all"
+                    onClick={() => {
+                      const info = document.getElementById('zone-info');
+                      if (info) {
+                        info.innerHTML = '<strong>🇺🇸 Pacific Remote Islands Marine National Monument</strong><br/>One of the largest marine protected areas on Earth, covering 1.2M km². Critical habitat for tuna and sharks.';
+                        info.className = 'text-orange-400 font-semibold mt-4 p-4 glass rounded-xl border border-orange-400/50';
+                      }
+                    }}
+                  >
+                    <title>North Pacific - Click for details</title>
+                  </ellipse>
+
+                  {/* Galápagos */}
+                  <circle 
+                    cx="200" cy="240" r="20" 
+                    fill="#8b5cf6" 
+                    fillOpacity="0.3" 
+                    stroke="#8b5cf6" 
+                    strokeWidth="2"
+                    className="cursor-pointer hover:fill-opacity-60 transition-all"
+                    onClick={() => {
+                      const info = document.getElementById('zone-info');
+                      if (info) {
+                        info.innerHTML = '<strong>🇪🇨 Galápagos Marine Reserve</strong><br/>UNESCO World Heritage Site protecting unique endemic species. 97% of reserve is no-take zone since 1998.';
+                        info.className = 'text-purple-400 font-semibold mt-4 p-4 glass rounded-xl border border-purple-400/50';
+                      }
+                    }}
+                  >
+                    <title>Galápagos - Click for details</title>
+                  </circle>
+
+                  {/* Red Sea */}
+                  <ellipse 
+                    cx="440" cy="150" rx="15" ry="35" 
+                    fill="#ef4444" 
+                    fillOpacity="0.3" 
+                    stroke="#ef4444" 
+                    strokeWidth="2"
+                    className="cursor-pointer hover:fill-opacity-60 transition-all"
+                    onClick={() => {
+                      const info = document.getElementById('zone-info');
+                      if (info) {
+                        info.innerHTML = '<strong>🌊 Red Sea Protected Areas</strong><br/>Network of marine parks protecting coral reefs and over 1,200 fish species, including many endemics.';
+                        info.className = 'text-red-400 font-semibold mt-4 p-4 glass rounded-xl border border-red-400/50';
+                      }
+                    }}
+                  >
+                    <title>Red Sea - Click for details</title>
+                  </ellipse>
+
+                  {/* South Pacific */}
+                  <ellipse 
+                    cx="700" cy="300" rx="45" ry="25" 
+                    fill="#14b8a6" 
+                    fillOpacity="0.3" 
+                    stroke="#14b8a6" 
+                    strokeWidth="2"
+                    className="cursor-pointer hover:fill-opacity-60 transition-all"
+                    onClick={() => {
+                      const info = document.getElementById('zone-info');
+                      if (info) {
+                        info.innerHTML = '<strong>🇵🇫 French Polynesia Marine Protected Areas</strong><br/>Largest marine protected area in the world (5M km²), safeguarding shark and tuna populations.';
+                        info.className = 'text-teal-400 font-semibold mt-4 p-4 glass rounded-xl border border-teal-400/50';
+                      }
+                    }}
+                  >
+                    <title>South Pacific - Click for details</title>
+                  </ellipse>
+                </g>
+
+                {/* Legend */}
+                <g id="legend">
+                  <rect x="20" y="20" width="200" height="80" fill="#0f172a" fillOpacity="0.8" rx="8" stroke="#1e293b" strokeWidth="1"/>
+                  <text x="30" y="40" fill="#f1f5f9" fontSize="14" fontWeight="bold">🛡️ Protected Zones</text>
+                  <circle cx="35" cy="55" r="5" fill="#22c55e" fillOpacity="0.5" stroke="#22c55e"/>
+                  <text x="50" y="60" fill="#94a3b8" fontSize="12">No-Fishing Areas</text>
+                  <text x="30" y="80" fill="#94a3b8" fontSize="11">Click zones for details</text>
+                </g>
+              </svg>
+            </div>
+
+            {/* Info Display */}
+            <div id="zone-info" className="text-slate-400 text-sm mt-4 p-4 glass rounded-xl border border-white/10 min-h-[60px] flex items-center justify-center">
+              👆 Click any colored zone to learn about that protected marine area
+            </div>
+
+            {/* Stats */}
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-6">
+              <div className="glass rounded-xl p-4 border border-white/10 text-center">
+                <div className="text-2xl font-bold text-teal-400">17.8M km²</div>
+                <div className="text-slate-400 text-sm mt-1">Protected Ocean</div>
+              </div>
+              <div className="glass rounded-xl p-4 border border-white/10 text-center">
+                <div className="text-2xl font-bold text-green-400">7.9%</div>
+                <div className="text-slate-400 text-sm mt-1">Of Total Ocean</div>
+              </div>
+              <div className="glass rounded-xl p-4 border border-white/10 text-center">
+                <div className="text-2xl font-bold text-blue-400">15,000+</div>
+                <div className="text-slate-400 text-sm mt-1">Protected Areas</div>
+              </div>
+              <div className="glass rounded-xl p-4 border border-white/10 text-center">
+                <div className="text-2xl font-bold text-purple-400">Goal: 30%</div>
+                <div className="text-slate-400 text-sm mt-1">By 2030 (UN)</div>
+              </div>
+            </div>
+          </div>
         </motion.div>
 
         {/* 2. ENGINEERING THINKING SECTION */}
