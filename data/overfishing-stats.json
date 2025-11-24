@@ -1,0 +1,136 @@
+{
+  "globalStats": {
+    "overfishedStocks": 35.4,
+    "fullyFished": 57.3,
+    "underfished": 7.3,
+    "yearlyDecline": 1.8,
+    "speciesAtRisk": 15,
+    "economicLoss": 88000000000,
+    "mediterraneanOverfishing": 62.2,
+    "lebanonAffectedSpecies": 8
+  },
+  "sources": {
+    "global": "FAO. 2022. The State of World Fisheries and Aquaculture 2022",
+    "mediterranean": "FAO-GFCM. 2023. The State of Mediterranean and Black Sea Fisheries",
+    "economic": "World Bank & FAO. 2017. The Sunken Billions Revisited",
+    "iucn": "IUCN Red List of Threatened Species. 2024"
+  },
+  "trends": [
+    { "year": 1990, "overfished": 10.0, "sustainable": 90.0 },
+    { "year": 2000, "overfished": 25.0, "sustainable": 75.0 },
+    { "year": 2005, "overfished": 28.8, "sustainable": 71.2 },
+    { "year": 2010, "overfished": 29.9, "sustainable": 70.1 },
+    { "year": 2015, "overfished": 33.1, "sustainable": 66.9 },
+    { "year": 2020, "overfished": 35.4, "sustainable": 64.6 },
+    { "year": 2024, "overfished": 35.4, "sustainable": 64.6 }
+  ],
+  "trendsSource": "Based on FAO State of World Fisheries reports 1995-2024",
+  "impactAreas": [
+    {
+      "title": "Economic Impact",
+      "value": "$88 billion",
+      "description": "Annual economic loss due to overfishing and poor fisheries management (World Bank & FAO 2017)",
+      "trend": "increasing"
+    },
+    {
+      "title": "People Dependent",
+      "value": "3.3 billion",
+      "description": "People worldwide who rely on fish as a primary source of protein (FAO 2022)",
+      "trend": "stable"
+    },
+    {
+      "title": "Species Threatened",
+      "value": "2,176",
+      "description": "Marine fish species assessed as threatened on IUCN Red List (Vulnerable, Endangered, or Critically Endangered) as of 2024",
+      "trend": "increasing"
+    },
+    {
+      "title": "Coastal Communities",
+      "value": "800 million",
+      "description": "People worldwide who depend on fish as their primary protein source",
+      "trend": "stable"
+    },
+    {
+      "title": "Coral Reef Damage",
+      "value": "55%",
+      "description": "Coral reefs damaged by destructive fishing practices like bottom trawling",
+      "trend": "increasing"
+    },
+    {
+      "title": "Bycatch Deaths",
+      "value": "40%",
+      "description": "Percentage of global catch that is discarded as bycatch (unwanted fish, turtles, dolphins)",
+      "trend": "stable"
+    }
+  ],
+  "mediterraneanCrisis": {
+    "overallStatus": "Critical",
+    "overfishingRate": 62.2,
+    "source": "FAO-GFCM. 2023. The State of Mediterranean and Black Sea Fisheries",
+    "affectedCountries": ["Lebanon", "Syria", "Turkey", "Greece", "Italy", "Spain", "Egypt", "Tunisia", "Algeria", "Morocco"],
+    "criticalSpecies": [
+      {
+        "name": "Dusky Grouper (Mediterranean Grouper)",
+        "scientificName": "Epinephelus marginatus",
+        "status": "Endangered",
+        "iucnStatus": "Endangered (IUCN 2016)",
+        "populationDecline": "50% over 3 generations",
+        "mainThreats": ["Overfishing", "Spearfishing", "Habitat destruction"]
+      },
+      {
+        "name": "Atlantic Bluefin Tuna",
+        "scientificName": "Thunnus thynnus",
+        "status": "Least Concern (improving)",
+        "iucnStatus": "Least Concern (IUCN 2021) - recovered from Endangered",
+        "populationDecline": "Historical 90% decline, now recovering",
+        "mainThreats": ["Industrial fishing", "High market demand"]
+      },
+      {
+        "name": "European Eel",
+        "scientificName": "Anguilla anguilla",
+        "status": "Critically Endangered",
+        "iucnStatus": "Critically Endangered (IUCN 2020)",
+        "populationDecline": "95-99% since 1980s",
+        "mainThreats": ["Overfishing", "Habitat loss", "Barriers to migration", "Pollution"]
+      }
+    ],
+    "facts": [
+      "The Mediterranean represents less than 1% of global waters but accounts for 7% of all marine species",
+      "Over 90% of Mediterranean fish stocks are overfished",
+      "Industrial fishing fleets have increased 10-fold in the last 50 years",
+      "Traditional small-scale fishing communities are being displaced",
+      "Illegal, unreported, and unregulated (IUU) fishing accounts for 30% of catches"
+    ]
+  },
+  "solutions": {
+    "implemented": [
+      {
+        "title": "Marine Protected Areas",
+        "description": "Over 15,000 protected areas covering 8% of global oceans",
+        "effectiveness": "High",
+        "coverage": 8
+      },
+      {
+        "title": "Fishing Quotas",
+        "description": "Science-based catch limits in many countries",
+        "effectiveness": "Medium",
+        "coverage": 45
+      },
+      {
+        "title": "Sustainable Certification",
+        "description": "MSC and ASC certification programs",
+        "effectiveness": "Medium",
+        "coverage": 15
+      }
+    ],
+    "needed": [
+      "Stronger enforcement of fishing regulations",
+      "Elimination of harmful subsidies ($35 billion annually)",
+      "Expansion of marine protected areas to 30% by 2030",
+      "Support for small-scale sustainable fishing",
+      "Consumer education and awareness",
+      "Technology for monitoring and enforcement"
+    ]
+  }
+}
+

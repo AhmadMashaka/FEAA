@@ -1,0 +1,312 @@
+{
+  "overview": {
+    "coastlineLength": "225 km",
+    "fishingCommunities": 47,
+    "fishermen": "3,000-4,000",
+    "annualCatch": "3,800 metric tons",
+    "overfishingRate": 62.2,
+    "endangeredSpecies": "Multiple species threatened",
+    "protectedAreas": 3,
+    "traditionalMethods": ["Hook and line", "Trammel nets", "Beach seines", "Fish traps (Qaraqir)"],
+    "sources": "FAO-GFCM Mediterranean reports, Lebanese Ministry of Agriculture, IUCN Mediterranean assessments"
+  },
+  "crisis": {
+    "title": "Lebanon's Marine Crisis",
+    "description": "Lebanon's Mediterranean waters face severe overfishing pressure, threatening both marine biodiversity and the livelihoods of coastal communities. Industrial fishing, illegal practices, and lack of enforcement have decimated fish populations.",
+    "keyIssues": [
+      {
+        "issue": "Illegal Fishing",
+        "severity": "Critical",
+        "description": "Widespread use of illegal nets, dynamite fishing, and unreported catches",
+        "impact": "Destroys habitats and catches juvenile fish"
+      },
+      {
+        "issue": "Industrial Trawlers",
+        "severity": "High",
+        "description": "Large vessels depleting stocks faster than they can recover",
+        "impact": "Displaces traditional fishermen and damages sea floor"
+      },
+      {
+        "issue": "Lack of Enforcement",
+        "severity": "Critical",
+        "description": "Minimal monitoring and weak penalties for violations",
+        "impact": "Allows illegal practices to continue unchecked"
+      },
+      {
+        "issue": "Pollution",
+        "severity": "High",
+        "description": "Coastal pollution from sewage and industrial waste",
+        "impact": "Degrades marine habitats and fish health"
+      }
+    ]
+  },
+  "affectedSpecies": [
+    {
+      "name": "Red Mullet (Sultan Ibrahim)",
+      "arabicName": "سلطان إبراهيم",
+      "status": "Overfished",
+      "populationDecline": 60,
+      "culturalSignificance": "Highly prized in Lebanese cuisine, traditional New Year's dish",
+      "currentSituation": "Population crashed due to overfishing. Once abundant, now rare and expensive.",
+      "action": "Seasonal closures and size limits needed"
+    },
+    {
+      "name": "European Seabass",
+      "arabicName": "قاروص",
+      "status": "Vulnerable",
+      "populationDecline": 45,
+      "culturalSignificance": "Popular restaurant fish, essential for coastal economy",
+      "currentSituation": "Declining catches despite increased fishing effort",
+      "action": "Aquaculture support and wild stock protection"
+    },
+    {
+      "name": "Sea Bream",
+      "arabicName": "دنيس",
+      "status": "Overfished",
+      "populationDecline": 50,
+      "culturalSignificance": "Staple in Lebanese seafood dishes",
+      "currentSituation": "Smaller average sizes indicate overfishing of breeding adults",
+      "action": "Minimum size requirements and seasonal protection"
+    },
+    {
+      "name": "Mediterranean Grouper",
+      "arabicName": "وقار",
+      "status": "Endangered",
+      "populationDecline": 75,
+      "culturalSignificance": "Traditional delicacy, symbol of Lebanese fishing heritage",
+      "currentSituation": "Nearly extinct in Lebanese waters",
+      "action": "Complete fishing ban and habitat restoration"
+    },
+    {
+      "name": "Dentex",
+      "arabicName": "فرخ",
+      "status": "Overfished",
+      "populationDecline": 55,
+      "culturalSignificance": "Premium fish in Lebanese restaurants",
+      "currentSituation": "Rare in local markets, mostly imported",
+      "action": "Stock recovery program needed"
+    },
+    {
+      "name": "Picarel",
+      "arabicName": "شخرم",
+      "status": "Declining",
+      "populationDecline": 35,
+      "culturalSignificance": "Affordable fish for local communities",
+      "currentSituation": "Still available but decreasing catches",
+      "action": "Monitor and set sustainable quotas"
+    }
+  ],
+  "protectedAreas": [
+    {
+      "name": "Palm Islands Nature Reserve",
+      "location": "North Lebanon (Tripoli)",
+      "area": "4.2 km²",
+      "established": 1992,
+      "status": "Active",
+      "species": ["Sea turtles", "Monk seals (historical)", "Various fish species"],
+      "description": "Lebanon's first marine protected area, home to endangered Mediterranean monk seal habitat"
+    },
+    {
+      "name": "Tyre Coast Nature Reserve",
+      "location": "South Lebanon",
+      "area": "3.5 km²",
+      "established": 1998,
+      "status": "Active",
+      "species": ["Sea turtles", "Migratory birds", "Coastal fish"],
+      "description": "Important nesting site for endangered loggerhead turtles, includes marine areas"
+    },
+    {
+      "name": "Proposed Saida-Tyre Marine Sanctuary",
+      "location": "South Lebanon",
+      "area": "15 km² (proposed)",
+      "established": "Pending",
+      "status": "Under Development",
+      "species": ["Multiple commercial species", "Seagrass meadows"],
+      "description": "Planned expansion to protect critical fishing grounds and allow stock recovery"
+    }
+  ],
+  "solutions": {
+    "immediate": [
+      "Enforce seasonal fishing closures during spawning seasons",
+      "Ban destructive fishing methods (dynamite, illegal nets)",
+      "Implement catch size limits for all commercial species",
+      "Increase penalties for violations",
+      "Deploy monitoring systems in key fishing areas"
+    ],
+    "shortTerm": [
+      "Expand marine protected areas to 10% of Lebanese waters",
+      "Support traditional fishermen with sustainable gear",
+      "Develop sustainable aquaculture programs",
+      "Create fish markets that certify legal and sustainable catch",
+      "Launch public awareness campaigns"
+    ],
+    "longTerm": [
+      "Transition to ecosystem-based fisheries management",
+      "Establish community-managed fishing zones",
+      "Create alternative livelihoods for displaced fishermen",
+      "Build marine research and monitoring capacity",
+      "Regional cooperation with Mediterranean neighbors"
+    ]
+  },
+  "traditionalVsModern": {
+    "traditional": {
+      "description": "Lebanese fishing traditions date back thousands of years, using selective methods that allowed fish populations to thrive.",
+      "methods": [
+        "Hook and line fishing - highly selective, minimal bycatch",
+        "Fish traps (قراقير) - allow small fish to escape",
+        "Trammel nets - set at specific depths for target species",
+        "Seasonal respect - traditional closures during spawning"
+      ],
+      "sustainability": "High - worked in harmony with marine ecosystems",
+      "community": "Strong fishing communities with shared knowledge and respect for the sea"
+    },
+    "modern": {
+      "description": "Industrial fishing methods have disrupted the balance, prioritizing short-term profits over sustainability.",
+      "methods": [
+        "Bottom trawling - destroys seabed habitats",
+        "Large-scale nets - catch everything including juveniles",
+        "Night fishing with bright lights - disrupts marine life",
+        "Illegal dynamite fishing - devastating and indiscriminate"
+      ],
+      "sustainability": "Low - extracting faster than populations can recover",
+      "impact": "Threatening traditional livelihoods and marine ecosystems"
+    }
+  },
+  "success Stories": [
+    {
+      "title": "Batroun Fishermen Cooperative",
+      "description": "Local fishermen organized to enforce seasonal closures and sustainable practices",
+      "impact": "20% increase in catches after 3 years of cooperative management",
+      "year": 2019
+    },
+    {
+      "title": "Tyre Turtle Conservation",
+      "description": "Community-led protection of sea turtle nesting sites",
+      "impact": "Successful nesting of endangered loggerhead turtles",
+      "year": 2015
+    }
+  ],
+  "takeAction": [
+    "Buy from fishermen who use traditional, sustainable methods",
+    "Avoid purchasing undersized fish",
+    "Support marine protected areas expansion",
+    "Report illegal fishing activities",
+    "Choose certified sustainable seafood",
+    "Reduce plastic use that pollutes Lebanese waters",
+    "Educate others about the importance of marine conservation"
+  ],
+  "affectedSpecies": [
+    {
+      "name": "Dusky Grouper",
+      "arabicName": "ناجل (Najel)",
+      "status": "Endangered",
+      "decline": "75%",
+      "threat": "Overfishing, habitat loss"
+    },
+    {
+      "name": "Mediterranean Monk Seal",
+      "arabicName": "فقمة البحر المتوسط",
+      "status": "Endangered",
+      "decline": "90%",
+      "threat": "Habitat destruction, fishing nets"
+    },
+    {
+      "name": "Common Dentex",
+      "arabicName": "سنطورة (Santura)",
+      "status": "Vulnerable",
+      "decline": "60%",
+      "threat": "Overfishing, illegal practices"
+    },
+    {
+      "name": "European Sea Bass",
+      "arabicName": "قاروص (Qarous)",
+      "status": "Near Threatened",
+      "decline": "45%",
+      "threat": "Overfishing, pollution"
+    },
+    {
+      "name": "Greater Amberjack",
+      "arabicName": "دوبان (Duban)",
+      "status": "Near Threatened",
+      "decline": "50%",
+      "threat": "Illegal fishing, climate change"
+    },
+    {
+      "name": "Bluefin Tuna",
+      "arabicName": "تونة (Tuna)",
+      "status": "Endangered",
+      "decline": "85%",
+      "threat": "Industrial fishing, high demand"
+    },
+    {
+      "name": "Red Mullet",
+      "arabicName": "سلطان إبراهيم (Sultan Ibrahim)",
+      "status": "Vulnerable",
+      "decline": "55%",
+      "threat": "Bottom trawling, overfishing"
+    },
+    {
+      "name": "Gilt-head Seabream",
+      "arabicName": "دنيس (Denis)",
+      "status": "Least Concern",
+      "decline": "Stable in farms, declining in wild",
+      "threat": "Wild population pressure"
+    }
+  ],
+  "protectedAreas": [
+    {
+      "name": "Palm Islands Nature Reserve",
+      "location": "Tripoli, North Lebanon",
+      "size": "4.2 km²",
+      "established": "1992",
+      "protection": "Full protection, no fishing",
+      "species": "Important nesting site for sea turtles and seabirds",
+      "success": "Marine biodiversity hotspot with recovering fish populations"
+    },
+    {
+      "name": "Tyre Coast Nature Reserve",
+      "location": "Tyre, South Lebanon",
+      "size": "3.8 km²",
+      "established": "1998",
+      "protection": "Partial protection, regulated fishing",
+      "species": "Endangered loggerhead turtles, diverse fish species",
+      "success": "Sea turtle conservation program showing positive results"
+    },
+    {
+      "name": "Enfeh Peninsula",
+      "location": "North Lebanon",
+      "size": "2.1 km²",
+      "established": "Proposed - pending approval",
+      "protection": "Proposed full marine protection",
+      "species": "Unique rock formations with rich marine life",
+      "success": "Community-led conservation efforts ongoing"
+    }
+  ],
+  "successStories": [
+    {
+      "title": "Palm Islands Sea Turtle Recovery",
+      "description": "Protected marine reserve has seen 40% increase in sea turtle nesting since 2010",
+      "impact": "+40% nesting activity",
+      "year": "2010-2024"
+    },
+    {
+      "title": "Traditional Fishing Revival",
+      "description": "Cooperative programs supporting traditional fishermen in Tyre and Tripoli",
+      "impact": "15 fishing cooperatives formed",
+      "year": "2018-2024"
+    }
+  ],
+  "takeAction": [
+    "Contact Lebanese Ministry of Agriculture about stronger fishing regulations",
+    "Support local fishing cooperatives using sustainable methods",
+    "Join beach cleanup initiatives organized by Lebanese environmental NGOs",
+    "Report illegal fishing to local authorities (hotline: 1735)",
+    "Buy only legal-sized fish from licensed vendors",
+    "Support expansion of marine protected areas in Lebanon",
+    "Volunteer with organizations like Green Line Association and INDYACT",
+    "Educate your community about sustainable seafood choices",
+    "Advocate for enforcement of existing fishing laws",
+    "Choose restaurants that source sustainable seafood"
+  ]
+}
+

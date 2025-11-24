@@ -1,0 +1,219 @@
+{
+  "successStories": [
+    {
+      "id": "striped-bass",
+      "name": "Striped Bass",
+      "scientificName": "Morone saxatilis",
+      "region": "Atlantic Coast, USA",
+      "status": {
+        "before": "Near Extinction",
+        "after": "Fully Recovered",
+        "current": "Least Concern"
+      },
+      "timeline": {
+        "crisis": 1980,
+        "action": 1984,
+        "recovery": 1995,
+        "stable": 2000
+      },
+      "populationChange": {
+        "lowest": "5 million (1980s)",
+        "current": "Over 35 million (2020s)",
+        "increase": "600%",
+        "source": "NOAA Fisheries & Atlantic States Marine Fisheries Commission"
+      },
+      "actions": [
+        "Emergency fishing moratorium 1984-1990",
+        "Strict size and bag limits",
+        "Habitat restoration in Chesapeake Bay",
+        "Interstate fisheries management cooperation",
+        "Strong enforcement of regulations"
+      ],
+      "lessons": "Demonstrates that even severely depleted fish stocks can recover with decisive action, cooperation, and patient enforcement.",
+      "timeToRecovery": "15 years"
+    },
+    {
+      "id": "humpback-whale",
+      "name": "Humpback Whale",
+      "scientificName": "Megaptera novaeangliae",
+      "region": "Global",
+      "status": {
+        "before": "Endangered",
+        "after": "Recovering",
+        "current": "Least Concern"
+      },
+      "timeline": {
+        "crisis": 1960,
+        "action": 1966,
+        "recovery": 1990,
+        "stable": 2015
+      },
+      "populationChange": {
+        "lowest": "~5,000 (1960s)",
+        "current": "~135,000 (2020s)",
+        "increase": "2,600%",
+        "source": "IUCN & International Whaling Commission (IWC)"
+      },
+      "actions": [
+        "International whaling moratorium",
+        "Creation of marine sanctuaries",
+        "Ship strike prevention measures",
+        "Reduction of ocean noise pollution",
+        "Global conservation cooperation"
+      ],
+      "lessons": "International cooperation and complete bans on hunting can lead to remarkable recovery of even the most threatened species.",
+      "timeToRecovery": "25 years"
+    },
+    {
+      "id": "bluefin-tuna-west",
+      "name": "Western Atlantic Bluefin Tuna (Partial Recovery)",
+      "scientificName": "Thunnus thynnus",
+      "region": "Western Atlantic",
+      "status": {
+        "before": "Critically Low",
+        "after": "Improving",
+        "current": "Still Endangered"
+      },
+      "timeline": {
+        "crisis": 1970,
+        "action": 1998,
+        "recovery": 2015,
+        "stable": "Ongoing"
+      },
+      "populationChange": {
+        "lowest": 250000,
+        "current": 680000,
+        "increase": 172
+      },
+      "actions": [
+        "ICCAT quota reductions",
+        "Size limits and seasonal closures",
+        "Electronic catch documentation",
+        "Increased monitoring and enforcement",
+        "Reduced illegal fishing"
+      ],
+      "lessons": "Shows that recovery is possible but slow for long-lived, slow-reproducing species. Continued vigilance is essential.",
+      "timeToRecovery": "Still recovering after 20+ years"
+    },
+    {
+      "id": "atlantic-cod-norway",
+      "name": "Norwegian Spring-Spawning Herring",
+      "scientificName": "Clupea harengus",
+      "region": "Norway",
+      "status": {
+        "before": "Collapsed",
+        "after": "Recovered",
+        "current": "Stable"
+      },
+      "timeline": {
+        "crisis": 1970,
+        "action": 1972,
+        "recovery": 1990,
+        "stable": 1995
+      },
+      "populationChange": {
+        "lowest": 50000,
+        "current": 10000000,
+        "increase": 19900
+      },
+      "actions": [
+        "Complete fishing ban 1972-1975",
+        "Gradual reopening with strict quotas",
+        "Science-based management",
+        "Adaptive management approach",
+        "Regional cooperation"
+      ],
+      "lessons": "Complete closures followed by careful, science-based management can lead to spectacular recovery.",
+      "timeToRecovery": "18 years"
+    }
+  ],
+  "ongoingRecovery": [
+    {
+      "name": "Mediterranean Swordfish",
+      "status": "Improving",
+      "region": "Mediterranean Sea",
+      "currentProgress": 45,
+      "expectedRecovery": 2030,
+      "keyActions": [
+        "Reduced quotas",
+        "Seasonal closures",
+        "Size limits",
+        "Electronic monitoring"
+      ]
+    },
+    {
+      "name": "Pacific Salmon",
+      "status": "Mixed Progress",
+      "region": "Pacific Northwest",
+      "currentProgress": 60,
+      "expectedRecovery": 2035,
+      "keyActions": [
+        "Dam removal",
+        "Habitat restoration",
+        "Hatchery programs",
+        "Climate adaptation"
+      ]
+    },
+    {
+      "name": "North Sea Herring",
+      "status": "Stable Recovery",
+      "region": "North Sea",
+      "currentProgress": 75,
+      "expectedRecovery": 2025,
+      "keyActions": [
+        "Quota management",
+        "Fleet reduction",
+        "Protected spawning areas",
+        "International cooperation"
+      ]
+    }
+  ],
+  "keyFactors": [
+    {
+      "factor": "Political Will",
+      "importance": "Critical",
+      "description": "Strong commitment from governments and international bodies to enforce regulations despite economic pressures"
+    },
+    {
+      "factor": "Science-Based Management",
+      "importance": "Critical",
+      "description": "Decisions based on robust data, population assessments, and ecosystem modeling"
+    },
+    {
+      "factor": "Enforcement",
+      "importance": "Critical",
+      "description": "Strong monitoring, surveillance, and penalties for violations"
+    },
+    {
+      "factor": "Stakeholder Cooperation",
+      "importance": "High",
+      "description": "Buy-in from fishing communities, industry, and conservation groups"
+    },
+    {
+      "factor": "Habitat Protection",
+      "importance": "High",
+      "description": "Protecting spawning grounds, nurseries, and critical habitats"
+    },
+    {
+      "factor": "Patience",
+      "importance": "High",
+      "description": "Understanding that recovery takes time - often 15-30 years"
+    },
+    {
+      "factor": "Adaptive Management",
+      "importance": "Medium",
+      "description": "Willingness to adjust strategies based on results"
+    },
+    {
+      "factor": "Public Awareness",
+      "importance": "Medium",
+      "description": "Consumer demand for sustainable seafood drives change"
+    }
+  ],
+  "recoveryTimeline": {
+    "shortLived": "5-10 years (e.g., sardines, anchovies)",
+    "mediumLived": "10-20 years (e.g., herring, mackerel)",
+    "longLived": "20-50 years (e.g., tuna, grouper, halibut)"
+  }
+}
+
