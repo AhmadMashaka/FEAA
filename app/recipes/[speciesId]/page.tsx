@@ -1,19 +1,23 @@
-"use client";
-
-import { use } from "react";
-import { motion } from "framer-motion";
-import { getSpeciesById } from "@/lib/data";
-import { getRecipesBySpeciesId } from "@/lib/recipes";
+import { getSpeciesById, getAllSpecies } from "@/lib/data";
+import { getRecipesBySpeciesId, getNonEndangeredSpecies } from "@/lib/recipes";
+import { Recipe } from "@/types/recipes";
 import { ArrowLeft, Clock, ChefHat, Globe, BookOpen, Users } from "lucide-react";
 import Link from "next/link";
 import StatusBadge from "@/components/StatusBadge";
 
 interface RecipeDetailPageProps {
-  params: Promise<{ speciesId: string }>;
+  params: { speciesId: string };
+}
+
+export async function generateStaticParams() {
+  const species = getNonEndangeredSpecies();
+  return species.map((s) => ({
+    speciesId: s.id,
+  }));
 }
 
 export default function RecipeDetailPage({ params }: RecipeDetailPageProps) {
-  const { speciesId } = use(params);
+  const { speciesId } = params;
   const species = getSpeciesById(speciesId);
   const recipes = getRecipesBySpeciesId(speciesId);
 
@@ -34,14 +38,11 @@ export default function RecipeDetailPage({ params }: RecipeDetailPageProps) {
     return (
       <div className="min-h-screen">
         <div className="max-w-7xl mx-auto px-8 py-10">
-          <Link href="/recipes">
-            <motion.button
-              whileHover={{ x: -5 }}
-              className="flex items-center space-x-2 text-teal-400 mb-8 hover:text-teal-300 transition-colors"
-            >
+          <Link href="/recipes" className="inline-block mb-8">
+            <button className="flex items-center space-x-2 text-teal-400 hover:text-teal-300 transition-colors">
               <ArrowLeft size={20} />
               <span>Back to Recipes</span>
-            </motion.button>
+            </button>
           </Link>
 
           <div className="glass-strong rounded-3xl p-16 text-center">
@@ -74,23 +75,15 @@ export default function RecipeDetailPage({ params }: RecipeDetailPageProps) {
     <div className="min-h-screen">
       <div className="max-w-7xl mx-auto px-8 py-10">
         {/* Back Button */}
-        <Link href="/recipes">
-          <motion.button
-            whileHover={{ x: -5 }}
-            className="flex items-center space-x-2 text-teal-400 mb-8 hover:text-teal-300 transition-colors"
-          >
+        <Link href="/recipes" className="inline-block mb-8">
+          <button className="flex items-center space-x-2 text-teal-400 hover:text-teal-300 transition-colors">
             <ArrowLeft size={20} />
             <span>Back to Recipes</span>
-          </motion.button>
+          </button>
         </Link>
 
         {/* Species Header */}
-        <motion.div
-          initial={{ opacity: 0, y: -20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-          className="mb-12"
-        >
+        <div className="mb-12">
           <div className="glass-strong rounded-3xl p-8 border border-white/20">
             <div className="flex items-start justify-between">
               <div>
@@ -114,23 +107,16 @@ export default function RecipeDetailPage({ params }: RecipeDetailPageProps) {
               </div>
             </div>
           </div>
-        </motion.div>
+        </div>
 
         {/* Recipes by Country */}
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.6, delay: 0.2 }}
-        >
+        <div>
           <h2 className="text-3xl font-bold text-white mb-8">Recipes from Around the World</h2>
 
           <div className="space-y-8">
-            {recipes.map((recipe, index) => (
-              <motion.div
+            {recipes.map((recipe: Recipe) => (
+              <div
                 key={recipe.id}
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: index * 0.1 }}
                 className="glass-strong rounded-3xl p-8 border border-white/20"
               >
                 {/* Recipe Header */}
@@ -232,10 +218,10 @@ export default function RecipeDetailPage({ params }: RecipeDetailPageProps) {
                     <p className="text-slate-300 text-sm leading-relaxed">{recipe.servingSuggestions}</p>
                   </div>
                 )}
-              </motion.div>
+              </div>
             ))}
           </div>
-        </motion.div>
+        </div>
       </div>
     </div>
   );

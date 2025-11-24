@@ -136,4 +136,6 @@ export function getRelatedSpecies(
   return unique.slice(0, limit);
 }
 
+export type { SortOption };
+
 
