@@ -170,9 +170,8 @@ export default function AboutPage() {
                 Contact & Support
               </h2>
               <p className="text-lg text-slate-300 leading-relaxed font-light">
-                This application was developed as part of a FEAA (Faculty of Economics
-                and Business Administration) course project. For questions or
-                suggestions, please refer to the project documentation.
+                This application was developed as part of a course at the American University of Beirut (AUB), 
+                Faculty of Engineering and Architecture (FEAA). For questions or suggestions, please refer to the project documentation.
               </p>
             </motion.div>
 
