@@ -1714,7 +1714,7 @@ export default function PrototypePage() {
           </div>
         </motion.div>
 
-        {/* NEW: VIDEO DEMONSTRATION SECTION */}
+        {/* NEW: LIVE DEMONSTRATION HIGHLIGHTS */}
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -1722,92 +1722,99 @@ export default function PrototypePage() {
           className="glass-strong rounded-3xl shadow-2xl p-10 border border-white/20 mb-10"
         >
           <div className="flex items-center space-x-3 mb-6">
-            <svg className="text-red-400" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-              <rect x="2" y="2" width="20" height="20" rx="2.18" ry="2.18" />
-              <line x1="7" y1="2" x2="7" y2="22" />
-              <line x1="17" y1="2" x2="17" y2="22" />
-              <line x1="2" y1="12" x2="22" y2="12" />
-              <line x1="2" y1="7" x2="7" y2="7" />
-              <line x1="2" y1="17" x2="7" y2="17" />
-              <line x1="17" y1="17" x2="22" y2="17" />
-              <line x1="17" y1="7" x2="22" y2="7" />
+            <svg className="text-purple-400" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+              <polygon points="5 3 19 12 5 21 5 3" />
             </svg>
-            <h2 className="text-4xl font-bold text-white tracking-tight">Video Demonstration</h2>
+            <h2 className="text-4xl font-bold text-white tracking-tight">Demonstration Highlights</h2>
           </div>
 
           <p className="text-slate-300 mb-8 leading-relaxed">
-            Complete walkthrough of the platform demonstrating all features, user flows, and technical implementation.
+            This platform is fully functional and can be demonstrated in real-time. Key features to showcase during presentation:
           </p>
 
-          {/* Video Placeholder with Call to Action */}
-          <div className="glass rounded-2xl p-8 border border-white/10 bg-gradient-to-br from-blue-500/10 to-purple-500/10">
-            <div className="aspect-video bg-slate-800/50 rounded-xl flex items-center justify-center mb-6 border-2 border-dashed border-slate-600">
-              <div className="text-center">
-                <div className="text-6xl mb-4">🎥</div>
-                <div className="text-white font-bold text-xl mb-2">Live Demo Available</div>
-                <div className="text-slate-400 mb-4">Visit the deployed site for hands-on experience</div>
-                <a 
-                  href="https://ahmadmashaka.github.io/FEAA/" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center space-x-2 px-6 py-3 bg-gradient-to-r from-red-500 to-pink-500 hover:from-red-400 hover:to-pink-400 text-white font-bold rounded-xl transition-all shadow-lg hover:shadow-2xl"
-                >
-                  <span>Open Live Site</span>
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                    <polygon points="5 3 19 12 5 21 5 3" />
-                  </svg>
-                </a>
-              </div>
+          {/* Demo Points */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+            <div className="glass rounded-2xl p-6 border border-purple-400/30">
+              <h4 className="text-purple-400 font-bold mb-4 text-xl">🎯 User Experience Flow</h4>
+              <ol className="space-y-3 text-slate-300">
+                <li className="flex items-start space-x-3">
+                  <span className="text-teal-400 font-bold flex-shrink-0">1.</span>
+                  <span>User lands on homepage, sees 105 species cards</span>
+                </li>
+                <li className="flex items-start space-x-3">
+                  <span className="text-teal-400 font-bold flex-shrink-0">2.</span>
+                  <span>Searches for &quot;tuna&quot; - instant results</span>
+                </li>
+                <li className="flex items-start space-x-3">
+                  <span className="text-teal-400 font-bold flex-shrink-0">3.</span>
+                  <span>Clicks species to see detailed conservation status</span>
+                </li>
+                <li className="flex items-start space-x-3">
+                  <span className="text-teal-400 font-bold flex-shrink-0">4.</span>
+                  <span>Uses sustainability checker for buying decisions</span>
+                </li>
+                <li className="flex items-start space-x-3">
+                  <span className="text-teal-400 font-bold flex-shrink-0">5.</span>
+                  <span>Explores recipes for sustainable alternatives</span>
+                </li>
+              </ol>
             </div>
 
-            {/* Key Demo Points */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <div className="glass rounded-xl p-4 border border-white/10">
-                <h4 className="text-white font-bold mb-2">🎯 What the Demo Shows:</h4>
-                <ul className="space-y-1 text-slate-300 text-sm">
-                  <li>• Complete user journey from landing to action</li>
-                  <li>• Search and filter functionality in real-time</li>
-                  <li>• Sustainability checker tool in action</li>
-                  <li>• Interactive quiz and educational content</li>
-                  <li>• Mobile-responsive design demonstration</li>
-                </ul>
-              </div>
-              <div className="glass rounded-xl p-4 border border-white/10">
-                <h4 className="text-white font-bold mb-2">🔧 Technical Highlights:</h4>
-                <ul className="space-y-1 text-slate-300 text-sm">
-                  <li>• Fast page load times (&lt;1 second)</li>
-                  <li>• Smooth animations and transitions</li>
-                  <li>• Real-time data filtering (105 species)</li>
-                  <li>• Cross-browser compatibility</li>
-                  <li>• Accessible design (WCAG AA)</li>
-                </ul>
-              </div>
+            <div className="glass rounded-2xl p-6 border border-blue-400/30">
+              <h4 className="text-blue-400 font-bold mb-4 text-xl">🔧 Technical Demonstrations</h4>
+              <ul className="space-y-3 text-slate-300">
+                <li className="flex items-start space-x-3">
+                  <span className="text-teal-400">✓</span>
+                  <span><strong>Performance:</strong> Page loads in &lt;1 second</span>
+                </li>
+                <li className="flex items-start space-x-3">
+                  <span className="text-teal-400">✓</span>
+                  <span><strong>Search:</strong> Real-time filtering of 105 species</span>
+                </li>
+                <li className="flex items-start space-x-3">
+                  <span className="text-teal-400">✓</span>
+                  <span><strong>Responsive:</strong> Works on phone, tablet, desktop</span>
+                </li>
+                <li className="flex items-start space-x-3">
+                  <span className="text-teal-400">✓</span>
+                  <span><strong>Animations:</strong> Smooth transitions throughout</span>
+                </li>
+                <li className="flex items-start space-x-3">
+                  <span className="text-teal-400">✓</span>
+                  <span><strong>Data:</strong> All information verified with sources</span>
+                </li>
+              </ul>
             </div>
           </div>
 
-          {/* Alternative: QR Code to Live Site */}
-          <div className="mt-6 flex items-center justify-center space-x-8 p-6 glass rounded-2xl border border-teal-400/30">
-            <div>
-              <div className="w-32 h-32 bg-white rounded-lg flex items-center justify-center">
-                <svg viewBox="0 0 100 100" className="w-full h-full p-2">
-                  <rect width="100" height="100" fill="white"/>
-                  <rect x="5" y="5" width="20" height="20" fill="black"/>
-                  <rect x="75" y="5" width="20" height="20" fill="black"/>
-                  <rect x="5" y="75" width="20" height="20" fill="black"/>
-                  <rect x="40" y="15" width="5" height="5" fill="black"/>
-                  <rect x="50" y="15" width="5" height="5" fill="black"/>
-                  <rect x="60" y="15" width="5" height="5" fill="black"/>
-                  <rect x="35" y="35" width="30" height="30" fill="black"/>
-                  <rect x="40" y="40" width="20" height="20" fill="white"/>
-                  <rect x="45" y="45" width="10" height="10" fill="black"/>
-                </svg>
+          {/* Presentation Tips */}
+          <div className="glass rounded-2xl p-6 border border-green-400/30 bg-gradient-to-br from-green-500/5 to-teal-500/5">
+            <h4 className="text-green-400 font-bold mb-4 text-xl">💡 Presentation Tips</h4>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+              <div>
+                <div className="text-white font-semibold mb-2">Start Here:</div>
+                <ul className="text-slate-300 text-sm space-y-1">
+                  <li>• Home dashboard overview</li>
+                  <li>• Show live search</li>
+                  <li>• Click a species</li>
+                </ul>
               </div>
-              <div className="text-center mt-2 text-slate-400 text-xs">Scan to visit</div>
-            </div>
-            <div>
-              <h4 className="text-white font-bold text-lg mb-2">Scan for Live Demo</h4>
-              <p className="text-slate-300 text-sm mb-2">Or visit directly:</p>
-              <code className="text-teal-400 text-sm">ahmadmashaka.github.io/FEAA</code>
+              <div>
+                <div className="text-white font-semibold mb-2">Key Features:</div>
+                <ul className="text-slate-300 text-sm space-y-1">
+                  <li>• Sustainability checker</li>
+                  <li>• Impact dashboard</li>
+                  <li>• Recipe browser</li>
+                </ul>
+              </div>
+              <div>
+                <div className="text-white font-semibold mb-2">End With:</div>
+                <ul className="text-slate-300 text-sm space-y-1">
+                  <li>• This prototype page</li>
+                  <li>• Show metrics & testing</li>
+                  <li>• Highlight zero cost</li>
+                </ul>
+              </div>
             </div>
           </div>
         </motion.div>
