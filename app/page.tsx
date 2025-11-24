@@ -10,7 +10,7 @@ import {
   SortOption,
 } from "@/lib/data";
 import { motion } from "framer-motion";
-import { Search, Filter, SortAsc, Globe, AlertTriangle } from "lucide-react";
+import { Search, SortAsc, Globe, AlertTriangle } from "lucide-react";
 
 export default function Home() {
   const allSpecies = getAllSpecies();

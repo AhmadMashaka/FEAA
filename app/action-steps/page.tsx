@@ -334,7 +334,7 @@ export default function ActionStepsPage() {
               href="/lebanon" 
               className="px-8 py-3 bg-gradient-to-r from-red-500 to-red-600 text-white font-semibold rounded-xl hover:shadow-lg hover:scale-105 transition-all"
             >
-              Learn About Lebanon's Crisis
+              Learn About Lebanon&apos;s Crisis
             </a>
             <a 
               href="/before-you-eat" 

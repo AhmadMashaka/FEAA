@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { ArrowLeft, Fish } from "lucide-react";
+import { ArrowLeft } from "lucide-react";
 
 export default function NotFound() {
   return (
@@ -25,7 +25,7 @@ export default function NotFound() {
           Species Not Found
         </h2>
         <p className="text-lg text-slate-400 mb-10 font-light">
-          The fish species you're looking for doesn't exist in our database.
+          The fish species you&apos;re looking for doesn&apos;t exist in our database.
         </p>
         <Link href="/">
           <motion.div

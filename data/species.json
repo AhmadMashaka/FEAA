@@ -1170,6 +1170,726 @@
       "habitat": "Freshwater streams, rivers, lakes",
       "maxLength": "120 cm",
       "maxWeight": "25 kg"
+    },
+    {
+      "id": "96",
+      "name": "Spotted Eagle Ray",
+      "scientificName": "Aetobatus narinari",
+      "status": "Endangered",
+      "population": 45000,
+      "populationTrend": "Decreasing",
+      "countries": ["Global tropical waters", "Egypt", "Lebanon", "India", "Australia"],
+      "noFishingZones": ["Great Barrier Reef Marine Park", "Red Sea Protected Areas"],
+      "description": "Spotted eagle ray populations declining due to bycatch in fisheries and habitat degradation. IUCN Status: Endangered (2021).",
+      "sources": [
+        "https://www.iucnredlist.org/species/39415/2915259",
+        "https://www.fishbase.se/summary/Aetobatus-narinari.html"
+      ],
+      "habitat": "Coastal tropical and warm temperate waters",
+      "maxLength": "500 cm width",
+      "maxWeight": "230 kg"
+    },
+    {
+      "id": "97",
+      "name": "Red Snapper",
+      "scientificName": "Lutjanus campechanus",
+      "status": "Vulnerable",
+      "population": 180000,
+      "populationTrend": "Increasing",
+      "countries": ["USA", "Mexico", "Gulf of Mexico"],
+      "noFishingZones": ["Gulf of Mexico Marine Protected Areas"],
+      "description": "Red snapper recovering from overfishing with strict management. IUCN Status: Vulnerable (2022).",
+      "sources": [
+        "https://www.iucnredlist.org/species/194365/2316658",
+        "https://www.fishbase.se/summary/Lutjanus-campechanus.html"
+      ],
+      "habitat": "Rocky bottoms, reefs, deep waters",
+      "maxLength": "100 cm",
+      "maxWeight": "23 kg"
+    },
+    {
+      "id": "98",
+      "name": "Yellowfin Tuna",
+      "scientificName": "Thunnus albacares",
+      "status": "Near Threatened",
+      "population": 2500000,
+      "populationTrend": "Decreasing",
+      "countries": ["Global tropical and subtropical waters", "Lebanon", "USA", "Japan", "Indonesia"],
+      "noFishingZones": ["Phoenix Islands Protected Area"],
+      "description": "Yellowfin tuna heavily exploited by commercial fisheries worldwide. IUCN Status: Near Threatened (2021).",
+      "sources": [
+        "https://www.iucnredlist.org/species/21858/9331008",
+        "https://www.fishbase.se/summary/Thunnus-albacares.html"
+      ],
+      "habitat": "Pelagic tropical and subtropical oceans",
+      "maxLength": "239 cm",
+      "maxWeight": "200 kg"
+    },
+    {
+      "id": "99",
+      "name": "Nassau Grouper",
+      "scientificName": "Epinephelus striatus",
+      "status": "Critically Endangered",
+      "population": 12000,
+      "populationTrend": "Decreasing",
+      "countries": ["Bahamas", "Caribbean", "Florida"],
+      "noFishingZones": ["Bahamas Marine Protected Areas", "Cayman Islands Reserves"],
+      "description": "Nassau grouper critically endangered due to overfishing at spawning aggregations. IUCN Status: Critically Endangered (2018).",
+      "sources": [
+        "https://www.iucnredlist.org/species/7862/100896695",
+        "https://www.fishbase.se/summary/Epinephelus-striatus.html"
+      ],
+      "habitat": "Coral reefs, rocky bottoms",
+      "maxLength": "122 cm",
+      "maxWeight": "25 kg"
+    },
+    {
+      "id": "100",
+      "name": "Atlantic Halibut",
+      "scientificName": "Hippoglossus hippoglossus",
+      "status": "Endangered",
+      "population": 95000,
+      "populationTrend": "Increasing",
+      "countries": ["Norway", "Iceland", "Canada", "USA", "UK"],
+      "noFishingZones": ["Barents Sea Protected Areas"],
+      "description": "Atlantic halibut recovering from severe overfishing with strict quotas. IUCN Status: Endangered (2014).",
+      "sources": [
+        "https://www.iucnredlist.org/species/10097/44792229",
+        "https://www.fishbase.se/summary/Hippoglossus-hippoglossus.html"
+      ],
+      "habitat": "Deep cold waters, continental shelves",
+      "maxLength": "450 cm",
+      "maxWeight": "320 kg"
+    },
+    {
+      "id": "101",
+      "name": "Mediterranean Swordfish",
+      "scientificName": "Xiphias gladius",
+      "status": "Least Concern",
+      "population": 1200000,
+      "populationTrend": "Stable",
+      "countries": ["Lebanon", "Italy", "Spain", "Greece", "Tunisia", "Egypt"],
+      "noFishingZones": ["Mediterranean Fisheries Restricted Areas"],
+      "description": "Mediterranean swordfish well-managed with sustainable populations. IUCN Status: Least Concern (2021).",
+      "sources": [
+        "https://www.iucnredlist.org/species/23148/9422329",
+        "https://www.fishbase.se/summary/Xiphias-gladius.html"
+      ],
+      "habitat": "Pelagic, warm and temperate oceans",
+      "maxLength": "455 cm",
+      "maxWeight": "650 kg"
+    },
+    {
+      "id": "102",
+      "name": "Goliath Grouper",
+      "scientificName": "Epinephelus itajara",
+      "status": "Vulnerable",
+      "population": 75000,
+      "populationTrend": "Increasing",
+      "countries": ["USA", "Brazil", "Caribbean", "West Africa"],
+      "noFishingZones": ["Florida Keys National Marine Sanctuary"],
+      "description": "Goliath grouper recovering from near-extinction with complete fishing ban. IUCN Status: Vulnerable (2018).",
+      "sources": [
+        "https://www.iucnredlist.org/species/7858/100796146",
+        "https://www.fishbase.se/summary/Epinephelus-itajara.html"
+      ],
+      "habitat": "Shallow tropical waters, reefs, mangroves",
+      "maxLength": "250 cm",
+      "maxWeight": "363 kg"
+    },
+    {
+      "id": "103",
+      "name": "Mahi-Mahi",
+      "scientificName": "Coryphaena hippurus",
+      "status": "Least Concern",
+      "population": 8500000,
+      "populationTrend": "Stable",
+      "countries": ["Global tropical and subtropical waters", "Lebanon", "USA", "Mexico", "India"],
+      "noFishingZones": [],
+      "description": "Mahi-mahi highly sustainable with fast growth and reproduction. IUCN Status: Least Concern (2011).",
+      "sources": [
+        "https://www.iucnredlist.org/species/154712/5264120",
+        "https://www.fishbase.se/summary/Coryphaena-hippurus.html"
+      ],
+      "habitat": "Pelagic, tropical and warm waters",
+      "maxLength": "210 cm",
+      "maxWeight": "40 kg"
+    },
+    {
+      "id": "104",
+      "name": "Barramundi",
+      "scientificName": "Lates calcarifer",
+      "status": "Least Concern",
+      "population": 3200000,
+      "populationTrend": "Stable",
+      "countries": ["Australia", "Southeast Asia", "India", "Papua New Guinea"],
+      "noFishingZones": ["Northern Australia Marine Parks"],
+      "description": "Barramundi widely farmed with stable wild populations. IUCN Status: Least Concern (2020).",
+      "sources": [
+        "https://www.iucnredlist.org/species/166499/6229858",
+        "https://www.fishbase.se/summary/Lates-calcarifer.html"
+      ],
+      "habitat": "Estuaries, rivers, coastal waters",
+      "maxLength": "200 cm",
+      "maxWeight": "60 kg"
+    },
+    {
+      "id": "105",
+      "name": "Red Mullet",
+      "scientificName": "Mullus barbatus",
+      "status": "Least Concern",
+      "population": 4500000,
+      "populationTrend": "Stable",
+      "countries": ["Lebanon", "Mediterranean countries", "Black Sea", "North Africa"],
+      "noFishingZones": ["Mediterranean Protected Areas"],
+      "description": "Red mullet common in Mediterranean markets, populations stable. IUCN Status: Least Concern (2014).",
+      "sources": [
+        "https://www.iucnredlist.org/species/198717/2530661",
+        "https://www.fishbase.se/summary/Mullus-barbatus.html"
+      ],
+      "habitat": "Coastal sandy and muddy bottoms",
+      "maxLength": "40 cm",
+      "maxWeight": "1 kg"
+    },
+    {
+      "id": "106",
+      "name": "Chilean Sea Bass",
+      "scientificName": "Dissostichus eleginoides",
+      "status": "Near Threatened",
+      "population": 320000,
+      "populationTrend": "Stable",
+      "countries": ["Chile", "Argentina", "South Georgia", "Antarctica"],
+      "noFishingZones": ["Antarctic Marine Protected Areas"],
+      "description": "Chilean sea bass managed with strict quotas after severe overfishing. IUCN Status: Near Threatened (2020).",
+      "sources": [
+        "https://www.iucnredlist.org/species/6823/12859074",
+        "https://www.fishbase.se/summary/Dissostichus-eleginoides.html"
+      ],
+      "habitat": "Deep cold waters, subantarctic",
+      "maxLength": "215 cm",
+      "maxWeight": "100 kg"
+    },
+    {
+      "id": "107",
+      "name": "Blue Marlin",
+      "scientificName": "Makaira nigricans",
+      "status": "Vulnerable",
+      "population": 220000,
+      "populationTrend": "Decreasing",
+      "countries": ["Global tropical and warm waters", "USA", "Caribbean", "Japan"],
+      "noFishingZones": ["Papahānaumokuākea Marine National Monument"],
+      "description": "Blue marlin threatened by overfishing in longline fisheries. IUCN Status: Vulnerable (2021).",
+      "sources": [
+        "https://www.iucnredlist.org/species/170314/6754507",
+        "https://www.fishbase.se/summary/Makaira-nigricans.html"
+      ],
+      "habitat": "Pelagic, tropical and warm temperate oceans",
+      "maxLength": "500 cm",
+      "maxWeight": "820 kg"
+    },
+    {
+      "id": "108",
+      "name": "Dusky Grouper",
+      "scientificName": "Epinephelus marginatus",
+      "status": "Endangered",
+      "population": 28000,
+      "populationTrend": "Decreasing",
+      "countries": ["Lebanon", "Mediterranean", "Brazil", "South Africa"],
+      "noFishingZones": ["Mediterranean Marine Protected Areas", "Port Cros National Park"],
+      "description": "Dusky grouper severely overfished in Mediterranean waters. IUCN Status: Endangered (2016).",
+      "sources": [
+        "https://www.iucnredlist.org/species/7859/100926029",
+        "https://www.fishbase.se/summary/Epinephelus-marginatus.html"
+      ],
+      "habitat": "Rocky reefs, coastal waters",
+      "maxLength": "150 cm",
+      "maxWeight": "60 kg"
+    },
+    {
+      "id": "109",
+      "name": "Striped Bass",
+      "scientificName": "Morone saxatilis",
+      "status": "Least Concern",
+      "population": 2800000,
+      "populationTrend": "Stable",
+      "countries": ["USA", "Canada"],
+      "noFishingZones": ["Chesapeake Bay Protected Areas"],
+      "description": "Striped bass successfully recovered through management. IUCN Status: Least Concern (2019).",
+      "sources": [
+        "https://www.iucnredlist.org/species/191931/2013699",
+        "https://www.fishbase.se/summary/Morone-saxatilis.html"
+      ],
+      "habitat": "Coastal waters, estuaries, rivers",
+      "maxLength": "200 cm",
+      "maxWeight": "57 kg"
+    },
+    {
+      "id": "110",
+      "name": "John Dory",
+      "scientificName": "Zeus faber",
+      "status": "Least Concern",
+      "population": 1200000,
+      "populationTrend": "Stable",
+      "countries": ["Lebanon", "Mediterranean", "UK", "Australia", "New Zealand"],
+      "noFishingZones": ["Mediterranean Trawling-free Zones"],
+      "description": "John Dory populations stable with moderate fishing pressure. IUCN Status: Least Concern (2015).",
+      "sources": [
+        "https://www.iucnredlist.org/species/18235588/18235590",
+        "https://www.fishbase.se/summary/Zeus-faber.html"
+      ],
+      "habitat": "Continental shelves, coastal waters",
+      "maxLength": "90 cm",
+      "maxWeight": "8 kg"
+    },
+    {
+      "id": "111",
+      "name": "Tarpon",
+      "scientificName": "Megalops atlanticus",
+      "status": "Vulnerable",
+      "population": 180000,
+      "populationTrend": "Decreasing",
+      "countries": ["USA", "Caribbean", "Central America", "West Africa"],
+      "noFishingZones": ["Everglades National Park", "Biscayne Bay Protected Areas"],
+      "description": "Tarpon threatened by habitat loss and overfishing. IUCN Status: Vulnerable (2020).",
+      "sources": [
+        "https://www.iucnredlist.org/species/191823/1999053",
+        "https://www.fishbase.se/summary/Megalops-atlanticus.html"
+      ],
+      "habitat": "Coastal waters, estuaries, rivers",
+      "maxLength": "250 cm",
+      "maxWeight": "161 kg"
+    },
+    {
+      "id": "112",
+      "name": "Gilthead Seabream",
+      "scientificName": "Sparus aurata",
+      "status": "Least Concern",
+      "population": 6800000,
+      "populationTrend": "Stable",
+      "countries": ["Lebanon", "Mediterranean", "Black Sea", "Portugal", "Morocco"],
+      "noFishingZones": ["Mediterranean Coastal Reserves"],
+      "description": "Gilthead seabream extensively farmed with stable wild stocks. IUCN Status: Least Concern (2014).",
+      "sources": [
+        "https://www.iucnredlist.org/species/170253/6740894",
+        "https://www.fishbase.se/summary/Sparus-aurata.html"
+      ],
+      "habitat": "Coastal seagrass beds, sandy bottoms",
+      "maxLength": "70 cm",
+      "maxWeight": "7 kg"
+    },
+    {
+      "id": "113",
+      "name": "Albacore Tuna",
+      "scientificName": "Thunnus alalunga",
+      "status": "Near Threatened",
+      "population": 1800000,
+      "populationTrend": "Decreasing",
+      "countries": ["Global temperate and tropical waters", "Lebanon", "USA", "Japan", "Spain"],
+      "noFishingZones": ["Pacific Marine Protected Areas"],
+      "description": "Albacore tuna overfished in some regions with declining stocks. IUCN Status: Near Threatened (2021).",
+      "sources": [
+        "https://www.iucnredlist.org/species/21856/9328286",
+        "https://www.fishbase.se/summary/Thunnus-alalunga.html"
+      ],
+      "habitat": "Pelagic, temperate and tropical oceans",
+      "maxLength": "140 cm",
+      "maxWeight": "60 kg"
+    },
+    {
+      "id": "114",
+      "name": "Greenland Shark",
+      "scientificName": "Somniosus microcephalus",
+      "status": "Vulnerable",
+      "population": 45000,
+      "populationTrend": "Decreasing",
+      "countries": ["Greenland", "Iceland", "Norway", "Canada", "Arctic waters"],
+      "noFishingZones": ["Arctic Marine Protected Areas"],
+      "description": "Greenland shark threatened by bycatch and slow reproduction. IUCN Status: Vulnerable (2020).",
+      "sources": [
+        "https://www.iucnredlist.org/species/60213/124452372",
+        "https://www.fishbase.se/summary/Somniosus-microcephalus.html"
+      ],
+      "habitat": "Deep Arctic and North Atlantic waters",
+      "maxLength": "640 cm",
+      "maxWeight": "1000 kg"
+    },
+    {
+      "id": "115",
+      "name": "Pompano",
+      "scientificName": "Trachinotus carolinus",
+      "status": "Least Concern",
+      "population": 3500000,
+      "populationTrend": "Stable",
+      "countries": ["USA", "Caribbean", "Brazil"],
+      "noFishingZones": [],
+      "description": "Pompano populations healthy with sustainable fishing. IUCN Status: Least Concern (2018).",
+      "sources": [
+        "https://www.iucnredlist.org/species/190044/1937388",
+        "https://www.fishbase.se/summary/Trachinotus-carolinus.html"
+      ],
+      "habitat": "Coastal waters, sandy beaches",
+      "maxLength": "64 cm",
+      "maxWeight": "3.6 kg"
+    },
+    {
+      "id": "116",
+      "name": "Common Octopus",
+      "scientificName": "Octopus vulgaris",
+      "status": "Least Concern",
+      "population": 12000000,
+      "populationTrend": "Stable",
+      "countries": ["Lebanon", "Mediterranean", "Atlantic", "Global tropical/temperate"],
+      "noFishingZones": ["Mediterranean Marine Reserves"],
+      "description": "Common octopus widely fished but populations remain stable. IUCN Status: Least Concern (2014).",
+      "sources": [
+        "https://www.iucnredlist.org/species/162968/939854",
+        "https://www.fishbase.se/summary/Octopus-vulgaris.html"
+      ],
+      "habitat": "Rocky reefs, coastal waters",
+      "maxLength": "100 cm",
+      "maxWeight": "10 kg"
+    },
+    {
+      "id": "117",
+      "name": "Atlantic Cod (Recovered Stock)",
+      "scientificName": "Gadus morhua",
+      "status": "Vulnerable",
+      "population": 850000,
+      "populationTrend": "Increasing",
+      "countries": ["Norway", "Iceland", "Canada", "UK", "USA"],
+      "noFishingZones": ["Barents Sea Reserves", "North Sea Protected Areas"],
+      "description": "Atlantic cod recovering in some areas with strict management. IUCN Status: Vulnerable (2014).",
+      "sources": [
+        "https://www.iucnredlist.org/species/8784/45097266",
+        "https://www.fishbase.se/summary/Gadus-morhua.html"
+      ],
+      "habitat": "Cold temperate continental shelves",
+      "maxLength": "200 cm",
+      "maxWeight": "96 kg"
+    },
+    {
+      "id": "118",
+      "name": "Cobia",
+      "scientificName": "Rachycentron canadum",
+      "status": "Least Concern",
+      "population": 2100000,
+      "populationTrend": "Stable",
+      "countries": ["USA", "Caribbean", "Southeast Asia", "Australia"],
+      "noFishingZones": [],
+      "description": "Cobia increasingly farmed with stable wild populations. IUCN Status: Least Concern (2018).",
+      "sources": [
+        "https://www.iucnredlist.org/species/190091/1943635",
+        "https://www.fishbase.se/summary/Rachycentron-canadum.html"
+      ],
+      "habitat": "Coastal pelagic, warm waters",
+      "maxLength": "200 cm",
+      "maxWeight": "68 kg"
+    },
+    {
+      "id": "119",
+      "name": "European Anchovy",
+      "scientificName": "Engraulis encrasicolus",
+      "status": "Least Concern",
+      "population": 28000000,
+      "populationTrend": "Stable",
+      "countries": ["Lebanon", "Mediterranean", "Black Sea", "Spain", "Turkey"],
+      "noFishingZones": ["Mediterranean Anchovy Spawning Areas"],
+      "description": "European anchovy sustainably managed with large populations. IUCN Status: Least Concern (2014).",
+      "sources": [
+        "https://www.iucnredlist.org/species/197017/2517346",
+        "https://www.fishbase.se/summary/Engraulis-encrasicolus.html"
+      ],
+      "habitat": "Pelagic coastal waters",
+      "maxLength": "20 cm",
+      "maxWeight": "0.05 kg"
+    },
+    {
+      "id": "120",
+      "name": "Yellowtail Amberjack",
+      "scientificName": "Seriola lalandi",
+      "status": "Least Concern",
+      "population": 4200000,
+      "populationTrend": "Stable",
+      "countries": ["Japan", "Australia", "California", "New Zealand", "Chile"],
+      "noFishingZones": ["Southern California Marine Protected Areas"],
+      "description": "Yellowtail amberjack widely farmed and sustainable. IUCN Status: Least Concern (2019).",
+      "sources": [
+        "https://www.iucnredlist.org/species/190226/1947165",
+        "https://www.fishbase.se/summary/Seriola-lalandi.html"
+      ],
+      "habitat": "Coastal pelagic, temperate waters",
+      "maxLength": "250 cm",
+      "maxWeight": "96 kg"
+    },
+    {
+      "id": "121",
+      "name": "Red Lionfish",
+      "scientificName": "Pterois volitans",
+      "status": "Least Concern",
+      "population": 15000000,
+      "populationTrend": "Increasing",
+      "countries": ["Invasive in Caribbean, Mediterranean", "Native to Indo-Pacific"],
+      "noFishingZones": [],
+      "description": "Red lionfish invasive species actively encouraged for fishing. IUCN Status: Least Concern (2016).",
+      "sources": [
+        "https://www.iucnredlist.org/species/190468/78940195",
+        "https://www.fishbase.se/summary/Pterois-volitans.html"
+      ],
+      "habitat": "Coral reefs, rocky areas",
+      "maxLength": "47 cm",
+      "maxWeight": "1.2 kg"
+    },
+    {
+      "id": "122",
+      "name": "Bluespotted Cornetfish",
+      "scientificName": "Fistularia commersonii",
+      "status": "Least Concern",
+      "population": 8500000,
+      "populationTrend": "Increasing",
+      "countries": ["Lebanon", "Mediterranean", "Red Sea", "Indo-Pacific", "Invasive species"],
+      "noFishingZones": [],
+      "description": "Bluespotted cornetfish expanding range due to warming waters. IUCN Status: Least Concern (2015).",
+      "sources": [
+        "https://www.iucnredlist.org/species/193735/2273843",
+        "https://www.fishbase.se/summary/Fistularia-commersonii.html"
+      ],
+      "habitat": "Coral reefs, seagrass beds",
+      "maxLength": "160 cm",
+      "maxWeight": "4 kg"
+    },
+    {
+      "id": "123",
+      "name": "Vermilion Snapper",
+      "scientificName": "Rhomboplites aurorubens",
+      "status": "Least Concern",
+      "population": 3600000,
+      "populationTrend": "Stable",
+      "countries": ["USA", "Gulf of Mexico", "Caribbean"],
+      "noFishingZones": ["Gulf Marine Protected Areas"],
+      "description": "Vermilion snapper sustainably managed with healthy stocks. IUCN Status: Least Concern (2018).",
+      "sources": [
+        "https://www.iucnredlist.org/species/194379/2319913",
+        "https://www.fishbase.se/summary/Rhomboplites-aurorubens.html"
+      ],
+      "habitat": "Rocky reefs, deep waters",
+      "maxLength": "60 cm",
+      "maxWeight": "3.5 kg"
+    },
+    {
+      "id": "124",
+      "name": "White Seabass",
+      "scientificName": "Atractoscion nobilis",
+      "status": "Near Threatened",
+      "population": 260000,
+      "populationTrend": "Increasing",
+      "countries": ["USA (California)", "Mexico"],
+      "noFishingZones": ["California Marine Protected Areas"],
+      "description": "White seabass recovering through restocking programs. IUCN Status: Near Threatened (2020).",
+      "sources": [
+        "https://www.iucnredlist.org/species/194339/2316169",
+        "https://www.fishbase.se/summary/Atractoscion-nobilis.html"
+      ],
+      "habitat": "Rocky reefs, kelp forests",
+      "maxLength": "166 cm",
+      "maxWeight": "41 kg"
+    },
+    {
+      "id": "125",
+      "name": "Porbeagle Shark",
+      "scientificName": "Lamna nasus",
+      "status": "Vulnerable",
+      "population": 85000,
+      "populationTrend": "Decreasing",
+      "countries": ["North Atlantic", "Mediterranean", "South Pacific", "Canada", "UK"],
+      "noFishingZones": ["North Atlantic Shark Sanctuaries"],
+      "description": "Porbeagle shark threatened by overfishing and bycatch. IUCN Status: Vulnerable (2019).",
+      "sources": [
+        "https://www.iucnredlist.org/species/11200/3259968",
+        "https://www.fishbase.se/summary/Lamna-nasus.html"
+      ],
+      "habitat": "Cold temperate continental shelves",
+      "maxLength": "365 cm",
+      "maxWeight": "230 kg"
+    },
+    {
+      "id": "126",
+      "name": "Blacktip Reef Shark",
+      "scientificName": "Carcharhinus melanopterus",
+      "status": "Vulnerable",
+      "population": 180000,
+      "populationTrend": "Decreasing",
+      "countries": ["Indo-Pacific", "Red Sea", "Lebanon (rare)", "Australia", "Indian Ocean"],
+      "noFishingZones": ["Great Barrier Reef Marine Park", "Maldives Shark Sanctuaries"],
+      "description": "Blacktip reef shark declining due to reef degradation and fishing. IUCN Status: Vulnerable (2020).",
+      "sources": [
+        "https://www.iucnredlist.org/species/39375/2911901",
+        "https://www.fishbase.se/summary/Carcharhinus-melanopterus.html"
+      ],
+      "habitat": "Shallow coral reefs, lagoons",
+      "maxLength": "200 cm",
+      "maxWeight": "45 kg"
+    },
+    {
+      "id": "127",
+      "name": "Spotted Sea Trout",
+      "scientificName": "Cynoscion nebulosus",
+      "status": "Least Concern",
+      "population": 5200000,
+      "populationTrend": "Stable",
+      "countries": ["USA (Atlantic and Gulf coasts)"],
+      "noFishingZones": ["Florida Seagrass Protection Areas"],
+      "description": "Spotted sea trout popular sport fish with healthy populations. IUCN Status: Least Concern (2019).",
+      "sources": [
+        "https://www.iucnredlist.org/species/154693/4611381",
+        "https://www.fishbase.se/summary/Cynoscion-nebulosus.html"
+      ],
+      "habitat": "Coastal bays, estuaries, seagrass beds",
+      "maxLength": "100 cm",
+      "maxWeight": "7.9 kg"
+    },
+    {
+      "id": "128",
+      "name": "European Seabass",
+      "scientificName": "Dicentrarchus labrax",
+      "status": "Near Threatened",
+      "population": 1800000,
+      "populationTrend": "Decreasing",
+      "countries": ["Lebanon", "Mediterranean", "Black Sea", "UK", "Norway"],
+      "noFishingZones": ["Mediterranean Seabass Nursery Areas"],
+      "description": "European seabass overfished but supported by aquaculture. IUCN Status: Near Threatened (2014).",
+      "sources": [
+        "https://www.iucnredlist.org/species/135606/4142102",
+        "https://www.fishbase.se/summary/Dicentrarchus-labrax.html"
+      ],
+      "habitat": "Coastal waters, estuaries, lagoons",
+      "maxLength": "103 cm",
+      "maxWeight": "12 kg"
+    },
+    {
+      "id": "129",
+      "name": "Spanish Mackerel",
+      "scientificName": "Scomberomorus commerson",
+      "status": "Least Concern",
+      "population": 6500000,
+      "populationTrend": "Stable",
+      "countries": ["Indo-Pacific", "Red Sea", "Lebanon", "Australia", "India"],
+      "noFishingZones": [],
+      "description": "Spanish mackerel sustainably managed across its range. IUCN Status: Least Concern (2017).",
+      "sources": [
+        "https://www.iucnredlist.org/species/170310/6752242",
+        "https://www.fishbase.se/summary/Scomberomorus-commerson.html"
+      ],
+      "habitat": "Coastal pelagic waters",
+      "maxLength": "240 cm",
+      "maxWeight": "70 kg"
+    },
+    {
+      "id": "130",
+      "name": "Yellowtail Snapper",
+      "scientificName": "Ocyurus chrysurus",
+      "status": "Least Concern",
+      "population": 4800000,
+      "populationTrend": "Stable",
+      "countries": ["USA", "Caribbean", "Brazil", "Gulf of Mexico"],
+      "noFishingZones": ["Florida Keys Marine Sanctuaries"],
+      "description": "Yellowtail snapper well-managed with sustainable fisheries. IUCN Status: Least Concern (2018).",
+      "sources": [
+        "https://www.iucnredlist.org/species/194388/2321273",
+        "https://www.fishbase.se/summary/Ocyurus-chrysurus.html"
+      ],
+      "habitat": "Coral reefs, offshore waters",
+      "maxLength": "86 cm",
+      "maxWeight": "4.5 kg"
+    },
+    {
+      "id": "131",
+      "name": "Black Drum",
+      "scientificName": "Pogonias cromis",
+      "status": "Least Concern",
+      "population": 3900000,
+      "populationTrend": "Stable",
+      "countries": ["USA (Atlantic and Gulf coasts)", "Caribbean"],
+      "noFishingZones": ["Chesapeake Bay Protected Areas"],
+      "description": "Black drum populations healthy with recreational and commercial fishing. IUCN Status: Least Concern (2019).",
+      "sources": [
+        "https://www.iucnredlist.org/species/194324/2313844",
+        "https://www.fishbase.se/summary/Pogonias-cromis.html"
+      ],
+      "habitat": "Coastal waters, bays, estuaries",
+      "maxLength": "170 cm",
+      "maxWeight": "51 kg"
+    },
+    {
+      "id": "132",
+      "name": "Sheepshead",
+      "scientificName": "Archosargus probatocephalus",
+      "status": "Least Concern",
+      "population": 4100000,
+      "populationTrend": "Stable",
+      "countries": ["USA (Atlantic and Gulf coasts)"],
+      "noFishingZones": [],
+      "description": "Sheepshead abundant with sustainable fishing practices. IUCN Status: Least Concern (2019).",
+      "sources": [
+        "https://www.iucnredlist.org/species/154690/4609761",
+        "https://www.fishbase.se/summary/Archosargus-probatocephalus.html"
+      ],
+      "habitat": "Coastal waters, piers, oyster beds",
+      "maxLength": "91 cm",
+      "maxWeight": "9.6 kg"
+    },
+    {
+      "id": "133",
+      "name": "Bluegill",
+      "scientificName": "Lepomis macrochirus",
+      "status": "Least Concern",
+      "population": 95000000,
+      "populationTrend": "Stable",
+      "countries": ["USA", "Canada", "Mexico", "Introduced worldwide"],
+      "noFishingZones": [],
+      "description": "Bluegill extremely abundant freshwater sport fish. IUCN Status: Least Concern (2013).",
+      "sources": [
+        "https://www.iucnredlist.org/species/61265/3117464",
+        "https://www.fishbase.se/summary/Lepomis-macrochirus.html"
+      ],
+      "habitat": "Freshwater lakes, ponds, rivers",
+      "maxLength": "41 cm",
+      "maxWeight": "2.2 kg"
+    },
+    {
+      "id": "134",
+      "name": "Largemouth Bass",
+      "scientificName": "Micropterus salmoides",
+      "status": "Least Concern",
+      "population": 78000000,
+      "populationTrend": "Stable",
+      "countries": ["USA", "Canada", "Mexico", "Introduced globally"],
+      "noFishingZones": [],
+      "description": "Largemouth bass popular sport fish with abundant populations. IUCN Status: Least Concern (2013).",
+      "sources": [
+        "https://www.iucnredlist.org/species/61265/3117464",
+        "https://www.fishbase.se/summary/Micropterus-salmoides.html"
+      ],
+      "habitat": "Freshwater lakes, ponds, slow rivers",
+      "maxLength": "97 cm",
+      "maxWeight": "10 kg"
+    },
+    {
+      "id": "135",
+      "name": "Mediterranean Moray Eel",
+      "scientificName": "Muraena helena",
+      "status": "Least Concern",
+      "population": 2800000,
+      "populationTrend": "Stable",
+      "countries": ["Lebanon", "Mediterranean", "Black Sea", "Eastern Atlantic"],
+      "noFishingZones": ["Mediterranean Marine Protected Areas"],
+      "description": "Mediterranean moray eel common in rocky habitats. IUCN Status: Least Concern (2014).",
+      "sources": [
+        "https://www.iucnredlist.org/species/195637/2398975",
+        "https://www.fishbase.se/summary/Muraena-helena.html"
+      ],
+      "habitat": "Rocky reefs, crevices",
+      "maxLength": "150 cm",
+      "maxWeight": "15 kg"
     }
   ]
 }

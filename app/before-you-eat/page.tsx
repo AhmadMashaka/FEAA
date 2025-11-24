@@ -4,10 +4,11 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Search, CheckCircle, XCircle, AlertTriangle, Fish, UtensilsCrossed, Info } from "lucide-react";
 import { getAllSpecies } from "@/lib/data";
+import { FishSpecies } from "@/types/species";
 
 export default function BeforeYouEatPage() {
   const [searchTerm, setSearchTerm] = useState("");
-  const [selectedSpecies, setSelectedSpecies] = useState<any>(null);
+  const [selectedSpecies, setSelectedSpecies] = useState<FishSpecies | null>(null);
   const allSpecies = getAllSpecies();
 
   const filteredSpecies = searchTerm
@@ -64,7 +65,7 @@ export default function BeforeYouEatPage() {
     }
   };
 
-  const getSustainableAlternatives = (species: any) => {
+  const getSustainableAlternatives = (species: FishSpecies) => {
     const sustainability = getSustainabilityRating(species.status);
     
     if (sustainability.rating === "Best Choice") {
@@ -285,7 +286,7 @@ export default function BeforeYouEatPage() {
                       <div className="flex items-start space-x-3">
                         <Info className="text-teal-400 flex-shrink-0 mt-1" size={24} />
                         <div className="text-sm text-slate-300">
-                          <strong className="text-teal-400">Remember:</strong> Even "Best Choice" species should be consumed 
+                          <strong className="text-teal-400">Remember:</strong> Even &quot;Best Choice&quot; species should be consumed 
                           responsibly. Look for certified sustainable seafood (MSC, ASC), support local fishermen using 
                           traditional methods, and diversify your seafood choices to reduce pressure on any single species.
                         </div>

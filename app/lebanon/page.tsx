@@ -23,7 +23,7 @@ export default function LebanonPage() {
           <div className="flex items-center justify-center mb-4">
             <Flag className="text-red-500 mr-3" size={48} />
             <h1 className="text-5xl font-bold text-white tracking-tight">
-              Lebanon's Marine Crisis
+              Lebanon&apos;s Marine Crisis
             </h1>
           </div>
           <p className="text-xl text-slate-300 max-w-3xl mx-auto mb-4">
@@ -322,7 +322,7 @@ export default function LebanonPage() {
           className="glass-strong rounded-3xl p-10 border border-teal-400/50 bg-gradient-to-br from-teal-500/10 to-blue-500/10"
         >
           <h2 className="text-3xl font-bold text-white mb-6 text-center">
-            What You Can Do to Help Lebanon's Waters
+            What You Can Do to Help Lebanon&apos;s Waters
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
             {takeAction.map((action, index) => (
